@@ -1,0 +1,142 @@
+.start {
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+.phymol {
+    display: block;
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+    margin: 2%;
+}
+
+.phymol-logo {
+    display: block;
+    max-width:96%;
+    max-height:96%;
+    width: auto;
+    height: auto;
+}
+
+.phymol-title {
+    display: none;
+}
+
+@media only screen and (min-width: 850px) {
+    .phymol {
+        display: block;
+        max-width:306px;
+        max-height:128px;
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
+    .phymol-title {
+        flex-grow: 1;
+        background: linear-gradient(rgba(42,17,182,.4), rgba(42,17,182,.4)), url("../../src/img/titlebg2.png");
+        background-size: 602px 328px;
+        background-repeat: repeat;
+        display: inline-block;
+        color: white;
+        vertical-align: middle;
+        content: "";
+        overflow: hidden;
+        position: relative;
+        padding-left: 20px;
+    }
+}
+
+.valignment {
+    height: 50%;
+    position:absolute;
+    top: 25%;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.25em;
+}
+
+a.router-link-active,
+a.router-link-exact-active {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.nav-pretty {
+    width: 100%;
+    justify-content: center !important;
+    font-size: 1.2em;
+}
+
+.nav-pretty li {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.mini-logo {
+    height: 64px;
+    width: 53px;
+}
+
+.nav-align-style {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #AD8F6B !important;
+    padding-top: 4%;
+}
+
+.page-content {
+    text-align: justify;
+}
+
+.thumbnail {
+    width: 15%;
+    min-width: 75px;
+    margin: 10px;
+}
+
+#footer {
+    margin-top: 3%;
+}
+
+.footer-text {
+    text-align: left;
+}
+
+.footer-key-aspects {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.funding {
+    width: 42%;
+    min-width: 75px;
+    margin: 5px;
+}
+
+.card-text a:link ,
+.card-text a:visited,
+.card-text a:hover,
+.card-text a:active { 
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+}

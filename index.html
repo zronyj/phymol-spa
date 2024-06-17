@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHYMOL</title>
+    <link rel="icon" href="./src/img/mini.png">
+    <link href="./src/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="https://kit.fontawesome.com/2def945993.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="container-fluid start">
+                <div class="phymol">
+                    <img class="phymol-logo" src="./src/img/logo.png" alt="PHYMOL" alt="PHYMOL">
+                </div>
+                <div class="phymol-title">
+                    <div class="valignment">
+                        <h1>PHYMOL</h1>
+                        <span class="subtitle">Physics, Accuracy and Machine Learning: Towards the next-generation of Molecular Potentials</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-pretty">
+                        <li>
+                            <a class="navbar-brand nav-align-style router-link" href="#">
+                                <img class="mini-logo" src="./src/img/mini.png" alt="">
+                                <router-link to="/"><b>PHYMOL</b></router-link>
+                            </a>
+                        </li>
+                        <li class="nav-item" v-for="item in menuItems" :key="item">
+                            <a class="nav-link nav-align-style" href="#">{{ item.toUpperCase() }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <main class="container">
+            <div class="page-content">
+                <router-view></router-view>
+            </div>
+        </main>
+    </div>
+    <footer id="footer">
+        <div class="text-bg-light text-center p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-bg-light border-light footer-text">
+                            <div class="card-header">Key Facts</div>
+                            <div class="card-body footer-key-aspects">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item list-group-item-light">Scientific beneficiaries: 10</li>
+                                    <li class="list-group-item list-group-item-light">Partners: 6</li>
+                                    <li class="list-group-item list-group-item-light">Number of countries involved: 10</li>
+                                    <li class="list-group-item list-group-item-light">Budget: approx. €2.6M from Horizon Europe and €300K from UKRI.</li>
+                                    <li class="list-group-item list-group-item-light">Number of funded doctoral candidates: 11</li>
+                                    <li class="list-group-item list-group-item-light">Coordinated by Prof Piotr Zuchowski from Universytet Mikłaja Kopernika, Torun</li>
+                                    <li class="list-group-item list-group-item-light">PHYMOL is a doctoral network funded mainly under the Horizon Europe scheme, and also by the UK Research and Innovation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-bg-light border-light footer-text">
+                            <div class="card-header">Funding</div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank">
+                                        <img class="funding" src="./src/img/funding/ec.png" alt="European Comission" title="Marie Skłodowska-Curie Actions - European Comission">
+                                    </a>
+                                    <a href="https://www.ukri.org/" target="_blank">
+                                        <img class="funding" src="./src/img/funding/ukri.png" alt="UK Research and Innovation" title="UK Research and Innovation">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-text">
+                        <div class="card text-bg-light border-light footer-text">
+                            <div class="card-header">Contact</div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <span>Coordinator:</span><br>
+                                    <a href="mailto:pzuch@fizyka.umk.pl" target="_blank"><i class="fa-solid fa-envelope fa-lg"></i> Piotr Zuchowski</a><br>
+                                    <span>Project Manager:</span><br>
+                                    <a href="mailto:a_wis@umk.pl" target="_blank"><i class="fa-solid fa-envelope fa-lg"></i> Agata Wiśniewska</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-bg-light border-light footer-text">
+                            <div class="card-header">Also find us</div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <a href="https://www.linkedin.com/company/phymol/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i> LinkedIN</a><br>
+                                    <a href="https://x.com/PHYMOL_MSCADN" target="_blank"><i class="fa-brands fa-square-x-twitter fa-2xl"></i> X / Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>PHYMOL© 2024, All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./src/js/vue.global.js"></script>
+    <script src="./src/js/vue-router.global.js"></script>
+    <script src="./src/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="src/js/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+{
+    "pageContent": [
+        {
+            "title": "PHYMOL: A Marie Skłodowska–Curie Actions Doctoral Network (MSCA DN) on Intermolecular Interactions",
+            "type": "text",
+            "data": [
+                "In the PHYMOL collaboration we bring together leading experts in the fields of molecular simulations, quantum chemistry, crystal structure prediction, intermolecular modelling, spectroscopy, machine-learning, and nano-clusters, from 12 academic institutes and national laboratories, and 4 industrial entities, in an ambitious programme of research and training to develop a new generation of researchers in the field of molecular modelling. PHYMOL combines the most advanced physical understanding of molecular interactions with machine-learning in a symbiotic manner that will lead to a new generation of researchers capable of advancing solutions to problems of importance in healthcare, energy and the environment, as well as basic science. The private sector is an integral part of PHYMOL and participates in management, training and research. With this union of forces from academia, industry from the EU and the US, we seek to keep molecular simulation techniques at the fore-front of industry and science in the EU.",
+                "PHYMOL is both a research and training network. We need researchers equipped with a deeper physical understanding of molecular interactions as well as profound expertise in computer-aided learning: a single focus on just one of these skills will not get us to where we wish to be. Machine learning (ML) needs accurate data, and while we have some of the most accurate ab initio methods available (many developed by members of this consortium),we know very well their limitations and shortcomings. Therefore, in PHYMOL we have set up a research and training programme that spans all areas of importance in the field of intermolecular interactions: the development of methods, generation and testing of reference data, development of models using physical ideas and machine learning, and the applications of these models in high-accuracy spectroscopic calculations and large-scale molecular dynamics computer simulations of complex systems.",
+                "The PHYMOL doctoral network will see 11 doctoral candidates (DCs) recruited across the 10 participating institutions in the UK and EU."
+            ]
+        },
+        {
+            "title": "PARTNERS",
+            "type": "images",
+            "data": [
+                {
+                    "name": "MolSSI",
+                    "img": "./src/img/partners/molssi.png",
+                    "link": "https://molssi.org/"
+                },
+                {
+                    "name": "AUBURN University",
+                    "img": "./src/img/partners/auburn.png",
+                    "link": "https://www.auburn.edu/"
+                },
+                {
+                    "name": "HITRAN",
+                    "img": "./src/img/partners/hitran.png",
+                    "link": "https://www.hitran.org/"
+                },
+                {
+                    "name": "NANOGAP",
+                    "img": "./src/img/partners/nanogap.png",
+                    "link": "https://nanogap.es/"
+                },
+                {
+                    "name": "CESGA",
+                    "img": "./src/img/partners/cesga.png",
+                    "link": "https://www.cesga.es/en/home-2/"
+                },
+                {
+                    "name": "Soldrevet",
+                    "img": "./src/img/partners/soldrevet.png",
+                    "link": "https://soldrevet.com/"
+                }
+            ]
+        },
+        {
+            "title": "BENEFICIARIES",
+            "type": "images",
+            "data": [
+                {
+                    "name": "Queen Mary University of London",
+                    "img": "./src/img/beneficiaries/qmul.png",
+                    "link": "https://www.qmul.ac.uk/"
+                },
+                {
+                    "name": "Universidad de Santiago de Compostela",
+                    "img": "./src/img/beneficiaries/usc.png",
+                    "link": "https://www.usc.gal/"
+                },
+                {
+                    "name": "University of Luxembourg",
+                    "img": "./src/img/beneficiaries/ul.png",
+                    "link": "https://www.uni.lu/"
+                },
+                {
+                    "name": "Radboud Universiteit",
+                    "img": "./src/img/beneficiaries/run.png",
+                    "link": "https://www.ru.nl/"
+                },
+                {
+                    "name": "Uniwersytet Mikołaja Kopernika w Toruniu",
+                    "img": "./src/img/beneficiaries/umk.png",
+                    "link": "https://www.umk.pl/"
+                },
+                {
+                    "name": "Consejo Superior de Investigaciones Científicas",
+                    "img": "./src/img/beneficiaries/csic.png",
+                    "link": "https://www.csic.es/"
+                },
+                {
+                    "name": "Sorbonne Université",
+                    "img": "./src/img/beneficiaries/su.png",
+                    "link": "https://www.sorbonne-universite.fr/"
+                },
+                {
+                    "name": "Eötvös Loránd Tudományegyetem",
+                    "img": "./src/img/beneficiaries/elte.png",
+                    "link": "https://www.elte.hu/"
+                },
+                {
+                    "name": "Avant-garde Materials Simulation",
+                    "img": "./src/img/beneficiaries/ams.png",
+                    "link": "https://www.avmatsim.eu/"
+                },
+                {
+                    "name": "Kido Dynamics",
+                    "img": "./src/img/beneficiaries/kido.png",
+                    "link": "https://www.kidodynamics.com/"
+                }
+            ]
+        }
+    ]
+}
