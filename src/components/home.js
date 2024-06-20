@@ -1,7 +1,6 @@
 export default {
     data () {
         return {
-            someVar: "variable!",
             content: null
         }
     },

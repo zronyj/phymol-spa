@@ -114,6 +114,30 @@ h2 {
     margin: 10px;
 }
 
+.imgcard {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.benelistimg {
+    width: 92%;
+    min-width: 150px;
+    margin: 4%;
+}
+
+.benelistcard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header h5 {
+    font-weight: bold !important;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 #footer {
     margin-top: 3%;
 }
@@ -137,6 +161,18 @@ h2 {
 .card-text a:visited,
 .card-text a:hover,
 .card-text a:active { 
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.memlinks {
+    list-style-type: none;
+}
+
+.memlinks a:link ,
+.memlinks a:visited,
+.memlinks a:hover,
+.memlinks a:active { 
     text-decoration: none;
     color: rgba(0, 0, 0, 0.55);
 }
