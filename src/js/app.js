@@ -7,16 +7,6 @@ const app = createApp({
         stickyNav: false,
         tester: false,
         menuItems: [],
-        pageMap: {
-            "PROJECT": "project.js",
-            "NETWORK": "network.js",
-            "RESEARCH PROJECTS": "projects.js",
-            "RECRUITMENT": "recruitment.js",
-            "EVENTS": "events.js",
-            "TRAINING": "training.js",
-            "IMPACT": "impact.js",
-            "CALENDAR": "calendar.js"
-        },
         pieces: {}
         }
     },
@@ -31,15 +21,9 @@ const app = createApp({
             }
         }
         rawFile.send(null);
-        },
-        readMenu: function(){
-            for (const [key, value] of Object.entries(this.pageMap)){
-                this.menuItems.push(key);
-            }
         }
     },
     created() {
-        this.readMenu();
     },
     mounted() {
 		

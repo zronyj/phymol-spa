@@ -34,11 +34,43 @@
                         <li>
                             <a class="navbar-brand nav-align-style router-link" href="#">
                                 <img class="mini-logo" src="./src/img/mini.png" alt="">
-                                <router-link to="/"><b>PHYMOL</b></router-link>
+                                <router-link to="/" class="router-link"><b>PHYMOL</b></router-link>
                             </a>
                         </li>
-                        <li class="nav-item" v-for="item in menuItems" :key="item">
-                            <a class="nav-link nav-align-style" href="#">{{ item.toUpperCase() }}</a>
+                        <li class="nav-item">
+                            <router-link to="/project" class="nav-link nav-align-style">PROJECT</router-link>
+                        </li>
+                        <li class="nav-item dropdown" data-bs-theme="dark">
+                            <router-link to="/network" class="nav-link nav-align-style dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">NETWORK</router-link>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <router-link to="/beneficiaries" class="nav-link nav-align-style">Beneficiaries</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="/partners" class="nav-link nav-align-style">Partners</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="/members" class="nav-link nav-align-style">Members</router-link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/projects" class="nav-link nav-align-style">RESEARCH PROJECTS</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/recruitment" class="nav-link nav-align-style">RECRUITMENT</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/events" class="nav-link nav-align-style">EVENTS</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/training" class="nav-link nav-align-style">TRAINING</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/impact" class="nav-link nav-align-style">IMPACT</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/calendar" class="nav-link nav-align-style">CALENDAR</router-link>
                         </li>
                     </ul>
                 </div>
