@@ -1,104 +1,102 @@
 {
-    "pageContent": [
-        {
-            "title": "PARTNERS",
-            "type": "cards",
-            "data": [
-                {
-                    "title": "MolSSI : The Molecular Sciences Software Institute",
-                    "img": "./src/img/partners/molssi.png",
-                    "website": {
-                        "name": "MolSSI",
-                        "link": "https://molssi.org/"
-                    },
-                    "content": "The Molecular Sciences Software Institute serves as a nexus for science, education, and cooperation serving the worldwide community of computational molecular scientists – a broad field including of biomolecular simulation, quantum chemistry, and materials science. The Institute will help the computational molecular science community to work together to leverage its diverse capabilities that will reduce or eliminate the gulf that currently delays by years the practical realization of theoretical innovations.\nThe MolSSI specializes in software training in the computational molecular sciences, and we have extensive experience in a number of topics that will be covered in this ITN in regards software schools, workshops, and mentorship of graduate student and postdoctoral trainees. The MolSSI also has experience in running a Software Fellows program whereby graduate students and postdocs are mentored in their software endeavors by our Molecular Software Scientists.",
-                    "members": [
-                        {
-                            "name": "Prof. Teresa Head-Gordon",
-                            "profile": "https://thglab.berkeley.edu/"
-                        }
-                    ]
+    "pageContent": {
+        "title": "PARTNERS",
+        "type": "cards",
+        "data": [
+            {
+                "title": "MolSSI : The Molecular Sciences Software Institute",
+                "img": "./src/img/partners/molssi.png",
+                "website": {
+                    "name": "MolSSI",
+                    "link": "https://molssi.org/"
                 },
-                {
-                    "title": "Auburn University",
-                    "img": "./src/img/partners/auburn.png",
-                    "website": {
-                        "name": "Auburn University",
-                        "link": "https://www.auburn.edu/"
-                    },
-                    "content": "Auburn University is flagship public university in Alabama, US, leading university in the south, recently elevated to R1 category the Carnegie Classification of Institutions of Higher Education. The Chemistry Department has 24 full-time faculty members with expertise in biological chemistry, synthesis methodology, molecular recognition and detection, new material synthesis and characterization, renewable energy, and very strong involvement in computational chemistry.\nProf. Patkowski is Professor of Chemistry and Biochemistry. He is one of the best experts in accurate calculations of interaction energies of weakly bound systems, author of over 40 papers (H-index 25). His expertise includes benchmarking the systems with non-covalent interactions and accurate ab-initio calculations of interaction potentials for the systems important for studies of fundamental physics, spectroscopy and metrology. He is recip- ient of ACS OpenEye Outstanding Junior Faculty Award in Computational Chemistry (2015).",
-                    "members": [
-                        {
-                            "name": "Prof. Konrad Patkowski",
-                            "profile": "https://www.auburn.edu/cosam/faculty/chemistry/patkowski/"
-                        }
-                    ]
+                "content": "The Molecular Sciences Software Institute serves as a nexus for science, education, and cooperation serving the worldwide community of computational molecular scientists – a broad field including of biomolecular simulation, quantum chemistry, and materials science. The Institute will help the computational molecular science community to work together to leverage its diverse capabilities that will reduce or eliminate the gulf that currently delays by years the practical realization of theoretical innovations.\nThe MolSSI specializes in software training in the computational molecular sciences, and we have extensive experience in a number of topics that will be covered in this ITN in regards software schools, workshops, and mentorship of graduate student and postdoctoral trainees. The MolSSI also has experience in running a Software Fellows program whereby graduate students and postdocs are mentored in their software endeavors by our Molecular Software Scientists.",
+                "members": [
+                    {
+                        "name": "Prof. Teresa Head-Gordon",
+                        "profile": "https://thglab.berkeley.edu/"
+                    }
+                ]
+            },
+            {
+                "title": "Auburn University",
+                "img": "./src/img/partners/auburn.png",
+                "website": {
+                    "name": "Auburn University",
+                    "link": "https://www.auburn.edu/"
                 },
-                {
-                    "title": "HITRAN: high-resolution transmission molecular absorption database",
-                    "img": "./src/img/partners/hitran.png",
-                    "website": {
-                        "name": "HITRAN",
-                        "link": "https://www.hitran.org/"
-                    },
-                    "content": "HITRAN is an acronym for high-resolution transmission molecular absorption database. HITRAN is a compilation of molecular spectroscopic parameters that a variety of computer codes use to predict and simulate the transmission and emission of light in the terrestrial and planetary atmospheres. HITRAN group also maintains and develops the HITEMP database.\nKey Expertise:\nCollection and validation of spectroscopic data to be maintained in the HiTRAN database. The HITRAN group develops effective tools for dissemination of the spectroscopic data and keeps close contact with the user community. The HITRAN group has vast expertise in molecular spectroscopy, data science and applications.",
-                    "members": [
-                        {
-                            "name": "Dr. Iouli E. Gordon",
-                            "profile": "https://lweb.cfa.harvard.edu/~igordon/"
-                        }
-                    ]
+                "content": "Auburn University is flagship public university in Alabama, US, leading university in the south, recently elevated to R1 category the Carnegie Classification of Institutions of Higher Education. The Chemistry Department has 24 full-time faculty members with expertise in biological chemistry, synthesis methodology, molecular recognition and detection, new material synthesis and characterization, renewable energy, and very strong involvement in computational chemistry.\nProf. Patkowski is Professor of Chemistry and Biochemistry. He is one of the best experts in accurate calculations of interaction energies of weakly bound systems, author of over 40 papers (H-index 25). His expertise includes benchmarking the systems with non-covalent interactions and accurate ab-initio calculations of interaction potentials for the systems important for studies of fundamental physics, spectroscopy and metrology. He is recip- ient of ACS OpenEye Outstanding Junior Faculty Award in Computational Chemistry (2015).",
+                "members": [
+                    {
+                        "name": "Prof. Konrad Patkowski",
+                        "profile": "https://www.auburn.edu/cosam/faculty/chemistry/patkowski/"
+                    }
+                ]
+            },
+            {
+                "title": "HITRAN: high-resolution transmission molecular absorption database",
+                "img": "./src/img/partners/hitran.png",
+                "website": {
+                    "name": "HITRAN",
+                    "link": "https://www.hitran.org/"
                 },
-                {
-                    "title": "NANOGAP",
-                    "img": "./src/img/partners/nanogap.png",
-                    "website": {
-                        "name": "NANOGAP",
-                        "link": "https://nanogap.es/"
-                    },
-                    "content": "NANOGAP is a spin-out from the University of Santiago de Compostela. NANOGAP develops, manufactures and sells nanomaterials. The core technology is based on wet chemistry and sub-nanometer Atomic Quantum Clusters (AQCs) with unique properties. Target markets include printed electronics, security printing, medical diagnostics and catalysts.",
-                    "members": [
-                        {
-                            "name": "Prof. M. Arturo López-Quintela",
-                            "profile": "https://investigacion.usc.gal/investigadores/59485/detalle?lang=en"
-                        }
-                    ]
+                "content": "HITRAN is an acronym for high-resolution transmission molecular absorption database. HITRAN is a compilation of molecular spectroscopic parameters that a variety of computer codes use to predict and simulate the transmission and emission of light in the terrestrial and planetary atmospheres. HITRAN group also maintains and develops the HITEMP database.\nKey Expertise:\nCollection and validation of spectroscopic data to be maintained in the HiTRAN database. The HITRAN group develops effective tools for dissemination of the spectroscopic data and keeps close contact with the user community. The HITRAN group has vast expertise in molecular spectroscopy, data science and applications.",
+                "members": [
+                    {
+                        "name": "Dr. Iouli E. Gordon",
+                        "profile": "https://lweb.cfa.harvard.edu/~igordon/"
+                    }
+                ]
+            },
+            {
+                "title": "NANOGAP",
+                "img": "./src/img/partners/nanogap.png",
+                "website": {
+                    "name": "NANOGAP",
+                    "link": "https://nanogap.es/"
                 },
-                {
-                    "title": "Supercomputing Center of Galicia (CESGA)",
-                    "img": "./src/img/partners/cesga.png",
-                    "website": {
-                        "name": "CESGA",
-                        "link": "https://www.cesga.es/en/home-2/"
-                    },
-                    "content": "CESGA was founded in 1993 to promote and provide supercomputing to the academic and non-academic communities. It employs more than 35 people and has more than 325 TeraFlops of computing capacity with a 4 PetaFLOPS update in progress.\nDr. Gómez is the manager of the Projects and Applications department at CESGA and Dr. Rodríguez senior scientific application technician. They have experience in the design of distributed and HPC systems, the management, support, parallelisation, migration of applications, the application of Machine Learning techniques to industrial processes, and scientific and technical software development. A. Gómez is involved in several Quantum Computing initiatives, being nowadays a main research line at CESGA. The main scientific computing infrastructure managed by CESGA is FinisTerrae, conceived for the efficient resolution of large parallel problems. In 2021, a new supercomputer is being deployed (4PFlops) including the first Quantum Computing Simulator installed in Spain.",
-                    "members": [
-                        {
-                            "name": "Dr. Andrés Gómez",
-                            "profile": "https://www.linkedin.com/in/andr%C3%A9s-g%C3%B3mez-779161a/"
-                        },
-                        {
-                            "name": "Dr. Aurelio Rodrígez",
-                            "profile": "https://www.linkedin.com/in/cesga-aurelio-rodr%C3%ADguez/"
-                        }
-                    ]
+                "content": "NANOGAP is a spin-out from the University of Santiago de Compostela. NANOGAP develops, manufactures and sells nanomaterials. The core technology is based on wet chemistry and sub-nanometer Atomic Quantum Clusters (AQCs) with unique properties. Target markets include printed electronics, security printing, medical diagnostics and catalysts.",
+                "members": [
+                    {
+                        "name": "Prof. M. Arturo López-Quintela",
+                        "profile": "https://investigacion.usc.gal/investigadores/59485/detalle?lang=en"
+                    }
+                ]
+            },
+            {
+                "title": "Supercomputing Center of Galicia (CESGA)",
+                "img": "./src/img/partners/cesga.png",
+                "website": {
+                    "name": "CESGA",
+                    "link": "https://www.cesga.es/en/home-2/"
                 },
-                {
-                    "title": "Soldrevet Chemistry by Thomas Preston",
-                    "img": "./src/img/partners/soldrevet.png",
-                    "website": {
-                        "name": "Soldrevet",
-                        "link": "https://soldrevet.com/"
+                "content": "CESGA was founded in 1993 to promote and provide supercomputing to the academic and non-academic communities. It employs more than 35 people and has more than 325 TeraFlops of computing capacity with a 4 PetaFLOPS update in progress.\nDr. Gómez is the manager of the Projects and Applications department at CESGA and Dr. Rodríguez senior scientific application technician. They have experience in the design of distributed and HPC systems, the management, support, parallelisation, migration of applications, the application of Machine Learning techniques to industrial processes, and scientific and technical software development. A. Gómez is involved in several Quantum Computing initiatives, being nowadays a main research line at CESGA. The main scientific computing infrastructure managed by CESGA is FinisTerrae, conceived for the efficient resolution of large parallel problems. In 2021, a new supercomputer is being deployed (4PFlops) including the first Quantum Computing Simulator installed in Spain.",
+                "members": [
+                    {
+                        "name": "Dr. Andrés Gómez",
+                        "profile": "https://www.linkedin.com/in/andr%C3%A9s-g%C3%B3mez-779161a/"
                     },
-                    "content": "Soldrevet provides a) bespoke chemistry research in concert with small-medium chemical engineering firms through computational chemistry modelling and material-production process design, b) career guidance through one-on-one coaching and workshops, and c) computational chemical and physical modelling research with university research groups.\nDr. Thomas Preston (sole proprietor): applications of computational chemistry and chemical modelling for use in sustainable development; education and training for researchers.",
-                    "members": [
-                        {
-                            "name": "Dr. Thomas Preston",
-                            "profile": "https://soldrevet.com/about/"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+                    {
+                        "name": "Dr. Aurelio Rodrígez",
+                        "profile": "https://www.linkedin.com/in/cesga-aurelio-rodr%C3%ADguez/"
+                    }
+                ]
+            },
+            {
+                "title": "Soldrevet Chemistry by Thomas Preston",
+                "img": "./src/img/partners/soldrevet.png",
+                "website": {
+                    "name": "Soldrevet",
+                    "link": "https://soldrevet.com/"
+                },
+                "content": "Soldrevet provides a) bespoke chemistry research in concert with small-medium chemical engineering firms through computational chemistry modelling and material-production process design, b) career guidance through one-on-one coaching and workshops, and c) computational chemical and physical modelling research with university research groups.\nDr. Thomas Preston (sole proprietor): applications of computational chemistry and chemical modelling for use in sustainable development; education and training for researchers.",
+                "members": [
+                    {
+                        "name": "Dr. Thomas Preston",
+                        "profile": "https://soldrevet.com/about/"
+                    }
+                ]
+            }
+        ]
+    }
 }

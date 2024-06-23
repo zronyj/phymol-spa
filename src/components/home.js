@@ -4,25 +4,13 @@ export default {
             content: null
         }
     },
+    props: {
+        package: Object
+    },
     template: '<component :is="dynamicComponent"></component>',
     methods: {
-        readTextFile: function (file, callback) {
-            var rawFile = new XMLHttpRequest();
-            rawFile.overrideMimeType("application/json");
-            rawFile.open("GET", file, true);
-            rawFile.onreadystatechange = function() {
-                if (rawFile.readyState === 4 && rawFile.status == "200") {
-                    callback(rawFile.responseText);
-                }
-            }
-            rawFile.send(null);
-        },
-        getMyContent: async function() {
-            var thecomponent = this;
-            await this.readTextFile('./src/data/home.json', function(text){
-                var data = JSON.parse(text);
-                thecomponent.content = data;
-            })
+        populateData: function() {
+            this.content = this.$props.package;
         },
         buildComponent: function(item) {
             var complete = '<div>\n';
@@ -54,7 +42,7 @@ export default {
     computed: {
         dynamicComponent: function() {
             if (this.content === null) {
-                this.getMyContent();
+                this.populateData();
                 return {
                     template: '<h2>Loading ...</h2>'
                 }
@@ -67,6 +55,6 @@ export default {
         }
     },
     created() {
-        this.getMyContent();
+        this.populateData();
     }
  }

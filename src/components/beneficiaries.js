@@ -4,44 +4,28 @@ export default {
             content: null
         }
     },
+    props: {
+        package: Object
+    },
     template: '<component :is="dynamicComponent"></component>',
     methods: {
-        readTextFile: function (file, callback) {
-            var rawFile = new XMLHttpRequest();
-            rawFile.overrideMimeType("application/json");
-            rawFile.open("GET", file, true);
-            rawFile.onreadystatechange = function() {
-                if (rawFile.readyState === 4 && rawFile.status == "200") {
-                    callback(rawFile.responseText);
-                }
-            }
-            rawFile.send(null);
-        },
-        getMyContent: async function() {
-            var thecomponent = this;
-            await this.readTextFile('./src/data/beneficiaries.json', function(text){
-                var data = JSON.parse(text);
-                thecomponent.content = data;
-            })
+        populateData: function() {
+            this.content = this.$props.package;
         },
         buildComponent: function(item) {
             var complete = '<div>\n';
-            complete += `<h2>${item.pageContent[0].title}</h2>\n`;
-            for (const beneCard of item.pageContent[0].data) {
+            complete += `<h2>${item.pageContent.title}</h2>\n`;
+            for (const beneCard of item.pageContent.data) {
                 var thisCard = '<div class="card benelistcard">\n';
                 thisCard += '<div class="row">\n';
                 thisCard += '<div class="col-md-3 imgcard">\n';
-                thisCard += '<img class="benelistimg" title="' + beneCard.website.name + '" src="' + beneCard.img + '" >\n';
+                thisCard += `<img class="benelistimg" title="${beneCard.website.name}" src="${beneCard.img}" >\n`;
                 thisCard += '</div>\n';
                 thisCard += '<div class="col-md-9">\n';
-                thisCard += '<div class="card-header"><h5>';
-                thisCard += beneCard.title;
-                thisCard += '</h5></div>\n';
+                thisCard += `<div class="card-header"><h5>${beneCard.title}</h5></div>\n`;
                 thisCard += '<div class="card-body">\n';
                 thisCard += `<p class="card-text">${beneCard.content}</p>\n`;
-                thisCard += '<p class="card-text">Website: ';
-                thisCard += `<a href="${beneCard.website.link}" target="_blank">${beneCard.website.name}</a>\n`;
-                thisCard += '</p>\n';
+                thisCard += `<p class="card-text">Website: <a href="${beneCard.website.link}" target="_blank">${beneCard.website.name}</a>\n</p>\n`;
                 thisCard += '<p class="card-text">PHYMOL Members:</p>\n';
                 thisCard += '<ul class="memlinks">\n';
                 for (const mem of beneCard.members) {
@@ -61,7 +45,7 @@ export default {
     computed: {
         dynamicComponent: function() {
             if (this.content === null) {
-                this.getMyContent();
+                this.populateData();
                 return {
                     template: '<h2>Loading ...</h2>'
                 }
@@ -74,6 +58,6 @@ export default {
         }
     },
     created() {
-        this.getMyContent();
+        this.populateData();
     }
  }

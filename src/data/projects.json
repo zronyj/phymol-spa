@@ -1,0 +1,69 @@
+{
+    "pageContent": {
+        "title" : "RESEARCH PROJECTS",
+        "type" : "accordion",
+        "description" : "All doctoral candidates (DCs) will be paid a generous salary on EU rates (these depend on the country in which the DC will be based, but are in excess of €3K per month), and will include mobility and family allowances. Normally, all DCs are funded for 36 months, but DC2 and DC7 will be funded for 48 months.\n\nFor information on the Application Process will be posted soon, but for inquiries into PHYMOL as a whole, or individual projects please contact the coordinator (email on the Contact section), or individual PIs (see on Members website).",
+        "data" : {
+            "DC1" : {
+                "title" : "DC1: Towards the accurate description of the induction energy in SAPT",
+                "host" : "UMK",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "Introduce systematically improvable theory for dispersion-free interaction between two monomers. This will be done by extension of the SAPT framework to include excited-state, open-shell systems. Special care will be taken to ensure that the induction energy is accurate as it is known to be problematic for neutral systems, and problems will be worse when excited states are present.",
+                "super" : ["piotr"],
+                "cosup" : ["alston", "rachel"],
+                "mento" : ["berta"],
+                "info": "dc1"
+            },
+            "DC2" : {
+                "title" : "DC2: Intermolecular interactions in excited states: the CO-CO* and other excimers",
+                "host" : "ELTE",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "One of the aims of the project is to benchmark electronic structure methods on complexes in electronically excited states. The initial focus will be on the CO-CO* excimer spectrum, as it can be studied in full dimensionality. The ground state has already been studied and the excimer spectrum can be measured. Start with calculations of diabatic interaction potentials for the CO-CO* excimer with existing electronic structure methods and with the SAPT and SAPT(DFT) methods for the CO-CO* excimer and the computation of the CO-CO* excimer spectrum. Apply SAPT-based methods to larger complexes such as the benzene dimer. Results from DC1 will be used if possible.",
+                "super" : ["attila"],
+                "cosup" : ["gerrit"],
+                "mento" : [""],
+                "info": "dc2"
+            },
+            "DC3" : {
+                "title" : "DC3: Collision-induced absorption spectra calculated from ab initio potentials",
+                "host" : "RUN",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "48 months",
+                "objectives" : "To develop computational techniques for quantum mechanical nuclear motion to benchmark ab initio interaction potentials and to employ these to compute collisioninduced absorption (CIA) spectra used by (exo)planetary scientists. You will use ab initio methods such as SAPT(DFT) for computing ab initio potentials for molecular dimers, and use these to compute CIA spectra of complexes of interest such as O2-CO2 , CO2-H2, CO2-CO2, CH4-CO2, CH4-CH4, and CH4-N2. The spectra will be included into the HITRAN database, often used by scientists studying the terrestrial and planetary atmospheres. These results will be incorporated into atmospheric models and in the analysis of satellite data taken to monitor the atmosphere.",
+                "super" : ["tijs"],
+                "cosup" : ["piotr"],
+                "mento" : [""],
+                "info": "dc3"
+            },
+            "DC4" : {
+                "title" : "DC4: Reparametrisation of semiempirical models",
+                "host" : "USC",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "The aim is to iteratively improve the PM6 Hamiltonian that is implemented in the MOPAC2016 program. This will be done using a database of reference DFT+D and coupled-cluster (CC) intermolecular interaction energies calculated for a set of specially chosen small molecules representing important functional groups. Correction to the PM6 model will be evaluated from this data set, and an analytical correction function will be obtained through fitting. Subsequent data sets containing larger molecules, with more complex functional units, will be added and the corresponding fits will be carried out. After validation, the method will be applied to the study of other systems.",
+                "super" : ["saulo", "berta"],
+                "cosup" : ["alex"],
+                "mento" : ["pilar"],
+                "info": "dc4"
+            },
+            "DC5" : {
+                "title" : "DC5: Development of intermolecular force-fields with many-body dispersion interactions",
+                "host" : "SU",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "The MBD method developed by Tkatchenko et al. is widely used to include vdW dispersion interactions in DFT calculations. The aim of this DC is to develop a unified intermolecular force field that combines electrostatics, polarization, and dispersion interactions on equal footing. 1) Develop the coupling between the AMOEBA & SIBFA polarizable force fields with MBD. 2) Assess models for deriving permanent and induced (static and fluctuating) moments and establish connections between them. 3) Evaluate performance on small molecules, supramolecular and biological systems, and molecular crystals. 4) Consider the transferability across chemical space of organic molecules using ML techniques in collaboration with Tkatchenko.",
+                "super" : ["jean"],
+                "cosup" : ["alex"],
+                "mento" : ["marcus"],
+                "info": "dc5"
+            }
+        }
+    }
+}

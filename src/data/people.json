@@ -1,0 +1,124 @@
+{
+    "rawContent" : {
+        "alston" : {
+            "name": "Dr. Alston J. Misquitta",
+            "profile": "https://www.qmul.ac.uk/spcs/staff/academics/profiles/ajmisquitta.html",
+            "department" : "School of Physical and Chemical Sciences",
+            "country" : "UK",
+            "host" : "QMUL",
+            "img" : "./src/img/members/alston.jpg"
+        },
+        "rachel" : {
+            "name": "Dr. Rachel Crespo-Otero",
+            "profile": "https://www.qmul.ac.uk/spcs/staff/academics/profiles/rachelcrespootero.html",
+            "department" : "School of Physical and Chemical Sciences",
+            "country" : "UK",
+            "host" : "QMUL",
+            "img" : "./src/img/members/crespo.jpg"
+        },
+        "berta" : {
+            "name": "Prof. Berta Fernández Rodríguez",
+            "profile": "https://investigacion.usc.gal/investigadores/58934/detalle?lang=en",
+            "department" : "Department of Physical Chemistry",
+            "country" : "ES",
+            "host" : "USC",
+            "img" : "./src/img/members/berta.jpg"
+        },
+        "saulo" : {
+            "name": "Prof. Saulo A. Vázquez Rodríguez",
+            "profile": "https://investigacion.usc.gal/investigadores/60577/detalle?lang=en",
+            "department" : "Department of Physical Chemistry",
+            "country" : "ES",
+            "host" : "USC",
+            "img" : "./src/img/members/saulo.jpg"
+        },
+        "alex" : {
+            "name": "Prof. Alexandre Tkatchenko",
+            "profile": "https://wwwfr.uni.lu/recherche/fstm/dphyms/people/alexandre_tkatchenko",
+            "department" : "Physics and Materials Science",
+            "country" : "LU",
+            "host" : "UL",
+            "img" : "./src/img/members/alex.webp"
+        },
+        "tijs" : {
+            "name": "Dr. Tijs Karma",
+            "profile": "https://www.theochem.ru.nl/~tkarman/",
+            "department" : "Theoretical Chemistry",
+            "country" : "NL",
+            "host": "RUN",
+            "img" : "./src/img/members/tijs.jpg"
+        },
+        "gerrit" : {
+            "name": "Prof. Gerrit C. Groenenboom",
+            "profile": "https://www.theochem.ru.nl/~gerritg/",
+            "department" : "Theoretical Chemistry",
+            "country" : "NL",
+            "host": "RUN",
+            "img" : "./src/img/members/gerrit.jpg"
+        },
+        "ad" : {
+            "name": "Prof. Ad van der Avoird",
+            "profile": "https://www.theochem.ru.nl/~avda/",
+            "department" : "Theoretical Chemistry",
+            "country" : "NL",
+            "host": "RUN",
+            "img" : "./src/img/members/ad.jpg"
+        },
+        "piotr" : {
+            "name": "Dr. Piotr Zuchowski",
+            "profile": "http://fizyka.umk.pl/~pzuch/index.html",
+            "department" : "Faculty of Physics",
+            "country" : "PL",
+            "host": "UMK",
+            "img" : "./src/img/members/piotr.jpg"
+        },
+        "pilar" : {
+            "name": "Dr. M. Pilar de Lara-Castells",
+            "profile": "http://www.abinitsim.iff.csic.es/mariapilardelaracastells",
+            "department" : "Research",
+            "country" : "ES",
+            "host": "CSIC",
+            "img" : "./src/img/members/MPilar.jpg"
+        },
+        "jean" : {
+            "name": "Prof. Jean-P. Piquemal",
+            "profile": "https://piquemalresearch.com/",
+            "department" : "Laboratoire de Chimie Théorique",
+            "country" : "FR",
+            "host" : "SU",
+            "img" : "./src/img/members/jeanPhilip.jpg"
+        },
+        "louis" : {
+            "name": "Dr. Louis Lagardere",
+            "profile": "https://scholar.google.fr/citations?user=Iuujj6sAAAAJ&hl=fr",
+            "department" : "Laboratoire de Chimie Théorique",
+            "country" : "FR",
+            "host" : "SU",
+            "img" : "./src/img/members/louis.jpg"
+        },
+        "attila" : {
+            "name": "Prof. Attila G. Császár",
+            "profile": "http://csaszar.chem.elte.hu/",
+            "department" : "Institute of Chemistry",
+            "country" : "HU",
+            "host" : "ELTE",
+            "img" : "./src/img/members/attila.jpg"
+        },
+        "marcus" : {
+            "name": "Dr. Marcus Neumann",
+            "profile": "https://www.researchgate.net/profile/Marcus-Neumann-2",
+            "department" : "-",
+            "country" : "DE",
+            "host" : "AMS",
+            "img" : "./src/img/members/marcus.jpg"
+        },
+        "alberto" : {
+            "name": "Dr. Alberto Hernando",
+            "profile": "https://www.researchgate.net/profile/Alberto-Hernando-De-Castro",
+            "department" : "Research",
+            "country" : "ES",
+            "host" : "KIDO",
+            "img" : "./src/img/members/alberto.webp"
+        }
+    }
+}

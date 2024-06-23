@@ -98,9 +98,15 @@ header h1 {
     margin: 0;
 }
 
-h2 {
+h2, h3 {
     color: #AD8F6B !important;
     padding-top: 4%;
+}
+
+.accordionTitle {
+    color: #AD8F6B !important;
+    font-weight: bold !important;
+    background-color: white !important;
 }
 
 .page-content {

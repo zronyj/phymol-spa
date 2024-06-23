@@ -4,30 +4,18 @@ export default {
             content: null
         }
     },
+    props: {
+        package: Object
+    },
     template: '<component :is="dynamicComponent"></component>',
     methods: {
-        readTextFile: function (file, callback) {
-            var rawFile = new XMLHttpRequest();
-            rawFile.overrideMimeType("application/json");
-            rawFile.open("GET", file, true);
-            rawFile.onreadystatechange = function() {
-                if (rawFile.readyState === 4 && rawFile.status == "200") {
-                    callback(rawFile.responseText);
-                }
-            }
-            rawFile.send(null);
-        },
-        getMyContent: async function() {
-            var thecomponent = this;
-            await this.readTextFile('./src/data/partners.json', function(text){
-                var data = JSON.parse(text);
-                thecomponent.content = data;
-            })
+        populateData: function() {
+            this.content = this.$props.package;
         },
         buildComponent: function(item) {
             var complete = '<div>\n';
-            complete += `<h2>${item.pageContent[0].title}</h2>\n`;
-            for (const beneCard of item.pageContent[0].data) {
+            complete += `<h2>${item.pageContent.title}</h2>\n`;
+            for (const beneCard of item.pageContent.data) {
                 var thisCard = '<div class="card benelistcard">\n';
                 thisCard += '<div class="row">\n';
                 thisCard += '<div class="col-md-3 imgcard">\n';
@@ -61,7 +49,7 @@ export default {
     computed: {
         dynamicComponent: function() {
             if (this.content === null) {
-                this.getMyContent();
+                this.populateData();
                 return {
                     template: '<h2>Loading ...</h2>'
                 }
@@ -74,6 +62,6 @@ export default {
         }
     },
     created() {
-        this.getMyContent();
+        this.populateData();
     }
  }

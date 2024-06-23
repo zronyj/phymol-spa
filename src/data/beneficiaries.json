@@ -1,180 +1,119 @@
 {
-    "pageContent": [
-        {
-            "title": "BENEFICIARIES",
-            "type": "cards",
-            "data": [
-                {
-                    "title": "Queen Mary University of London (QMUL) : School of Physical & Chemical Sciences (SPCS)",
-                    "img": "./src/img/beneficiaries/qmul.png",
-                    "website": {
-                        "name": "QMUL",
-                        "link": "https://www.qmul.ac.uk/"
-                    },
-                    "content": "QMUL is a 'Russell Group' UK HEI conducting the very best research and outstanding teaching and learning. It is ranked 9th in research quality in the 2014 UK Research Excellence Framework (REF) and 5th for research outputs. Annual income is £428m, of which £144m is research income. It is ranked 8th in the UK and 42nd globally based on citation levels. It has 25,000+ students (6,601 postgraduates) and 4,500+ staff over multiple campuses. QMUL has 9 Nobel Prize winners and it was ranked as 22nd of UK HEIs (BEIS, March 2018 with 83 H2020 participations (€35m).",
-                    "members": [
-                        {
-                            "name": "Dr. Alston J. Misquitta",
-                            "profile": "https://www.qmul.ac.uk/spcs/staff/academics/profiles/ajmisquitta.html"
-                        },
-                        {
-                            "name": "Dr. Rachel Crespo-Otero",
-                            "profile": "https://www.qmul.ac.uk/spcs/staff/academics/profiles/rachelcrespootero.html"
-                        }
-                    ]
+    "pageContent": {
+        "title": "BENEFICIARIES",
+        "type": "cards",
+        "data": {
+            "QMUL":{
+                "title": "Queen Mary University of London (QMUL) : School of Physical & Chemical Sciences (SPCS)",
+                "short": "Queen Mary University of London",
+                "img": "./src/img/beneficiaries/qmul.png",
+                "website": {
+                    "name": "QMUL",
+                    "link": "https://www.qmul.ac.uk/"
                 },
-                {
-                    "title": "University of Santiago de Compostela. Department of Physical Chemistry. Spain (USC)",
-                    "img": "./src/img/beneficiaries/usc.png",
-                    "website": {
-                        "name": "USC",
-                        "link": "https://www.usc.gal/"
-                    },
-                    "content": "The University of Santiago de Compostela (USC, http://www.usc.es) is a public university founded in 1495. It offers a total of 52 bachelor degrees, 55 doctoral programs, and 59 master degrees. More than 2,000 professionals work at USC (about 38% female) and around 26,000 students per year. In 2016, USC was ranked among the top ten Spanish universi- ties. The Quantum Chemistry group is part of the Physical Chemistry Department since 1996.",
-                    "members": [
-                        {
-                            "name": "Prof. Berta Fernández Rodríguez",
-                            "profile": "https://investigacion.usc.gal/investigadores/58934/detalle?lang=en"
-                        },
-                        {
-                            "name": "Prof. Saulo A. Vázquez Rodríguez",
-                            "profile": "https://investigacion.usc.gal/investigadores/60577/detalle?lang=en"
-                        }
-                    ]
+                "content": "QMUL is a 'Russell Group' UK HEI conducting the very best research and outstanding teaching and learning. It is ranked 9th in research quality in the 2014 UK Research Excellence Framework (REF) and 5th for research outputs. Annual income is £428m, of which £144m is research income. It is ranked 8th in the UK and 42nd globally based on citation levels. It has 25,000+ students (6,601 postgraduates) and 4,500+ staff over multiple campuses. QMUL has 9 Nobel Prize winners and it was ranked as 22nd of UK HEIs (BEIS, March 2018 with 83 H2020 participations (€35m).",
+                "keyMem" : ["alston", "rachel"]
+            },
+            "USC":{
+                "title": "University of Santiago de Compostela: Department of Physical Chemistry. Spain (USC)",
+                "short": "Universidad de Santiago de Compostela",
+                "img": "./src/img/beneficiaries/usc.png",
+                "website": {
+                    "name": "USC",
+                    "link": "https://www.usc.gal/"
                 },
-                {
-                    "title": "University of Luxembourg (UL): Theoretical Chemical Physics group",
-                    "img": "./src/img/beneficiaries/ul.png",
-                    "website": {
-                        "name": "UL",
-                        "link": "https://www.uni.lu/"
-                    },
-                    "content": "University of Luxembourg ranks 20th in the 2021 Times Higher Education Young University Ranking and 3rd worldwide in International Outlook. UL has 3100 employees, including 950 PhD candidates within three Doctoral Schools. The Doctoral School in Science & Engineering offers programs in Physics & Materials Science, Mathematics, Computer Science, Biology and Engineering, and Computational Sciences.",
-                    "members": [
-                        {
-                            "name": "Prof. Alexandre Tkatchenko",
-                            "profile": "https://wwwfr.uni.lu/recherche/fstm/dphyms/people/alexandre_tkatchenko"
-                        }
-                    ]
+                "content": "The University of Santiago de Compostela (USC, http://www.usc.es) is a public university founded in 1495. It offers a total of 52 bachelor degrees, 55 doctoral programs, and 59 master degrees. More than 2,000 professionals work at USC (about 38% female) and around 26,000 students per year. In 2016, USC was ranked among the top ten Spanish universi- ties. The Quantum Chemistry group is part of the Physical Chemistry Department since 1996.",
+                "keyMem" : ["berta", "saulo"]
+            },
+            "UL":{
+                "title": "University of Luxembourg (UL): Theoretical Chemical Physics group",
+                "short": "University of Luxembourg",
+                "img": "./src/img/beneficiaries/ul.png",
+                "website": {
+                    "name": "UL",
+                    "link": "https://www.uni.lu/"
                 },
-                {
-                    "title": "Radboud University Nijmegen (RUN): Theoretical Chemistry Group",
-                    "img": "./src/img/beneficiaries/run.png",
-                    "website": {
-                        "name": "RUN",
-                        "link": "https://www.ru.nl/"
-                    },
-                    "content": "The RU Nijmegen, founded 1923, is situated in the oldest city in the Netherlands and is listed in the Dutch university information guide “Keuzegids Universiteiten” as the best Dutch general university 2019 of all the traditional general universities. The RU has grouped its research within research institutes with the aim of creating an optimal research environment which has focus and critical mass. The institute for Molecules and Materials (IMM) is an interdisciplinary research institute in chemistry and physics at the Faculty of Science of the RU and counts the Nobel laureates in Physics (2012, A. Geim and K. Novoselov) among its visiting professors. Its mission is to fundamentally understand, design and control the func- tioning of molecules and materials. Its unique experimental facilities, backed up by strong theoretical groups, together with a balanced educational programme, guarantee an excellent environment for training Ph.D. students and young scientists in these interdisciplinary fields of science.",
-                    "members": [
-                        {
-                            "name": "Dr. Tijs Karma",
-                            "profile": "https://www.theochem.ru.nl/~tkarman/"
-                        },
-                        {
-                            "name": "Prof. Gerrit C. Groenenboom",
-                            "profile": "https://www.theochem.ru.nl/~gerritg/"
-                        },
-                        {
-                            "name": "Prof. Ad van der Avoird",
-                            "profile": "https://www.theochem.ru.nl/~avda/"
-                        }
-                    ]
+                "content": "University of Luxembourg ranks 20th in the 2021 Times Higher Education Young University Ranking and 3rd worldwide in International Outlook. UL has 3100 employees, including 950 PhD candidates within three Doctoral Schools. The Doctoral School in Science & Engineering offers programs in Physics & Materials Science, Mathematics, Computer Science, Biology and Engineering, and Computational Sciences.",
+                "keyMem" : ["alex"]
+            },
+            "RUN":{
+                "title": "Radboud University Nijmegen (RUN): Theoretical Chemistry Group",
+                "short": "Radboud Universiteit",
+                "img": "./src/img/beneficiaries/run.png",
+                "website": {
+                    "name": "RUN",
+                    "link": "https://www.ru.nl/"
                 },
-                {
-                    "title": "Nicolaus Copernicus University in Torun (UMK)",
-                    "img": "./src/img/beneficiaries/umk.png",
-                    "website": {
-                        "name": "UMK",
-                        "link": "https://www.umk.pl/"
-                    },
-                    "content": "The Nicolaus Copernicus University in Torun ́ (NCU, since 1945). It is one of the largest universities in Poland. It provides graduate and postgraduate courses for almost 20,000 students. The Faculty of Physics, Astronomy and Informatics has state-of-the-art research infrastructure including the National Laboratory of Atomic, Molecular and Optical Physics (FAMO), the Center for Quantum Optics and the Interdisciplinary Center for Modern Technologies. The Faculty of Physics, Astronomy and Informatics is the top faculty at NCU Torun ́, which is ranked as 5th best university in Poland. The Faculty itself is ranked as the 5th best among the faculties of physics of all higher education institutions in Poland. Large amount of research in the institute focuses on spectroscopy - method development and application (in particular HITRAN database development) which is in line with PHYMOL. We are active partners in international programs (supported from government) for staff and student exchange in astronomy, atomic, molecular and chemical physics.",
-                    "members": [
-                        {
-                            "name": "Dr. Piotr Zuchowski",
-                            "profile": "http://fizyka.umk.pl/~pzuch/index.html"
-                        }
-                    ]
+                "content": "The RU Nijmegen, founded 1923, is situated in the oldest city in the Netherlands and is listed in the Dutch university information guide “Keuzegids Universiteiten” as the best Dutch general university 2019 of all the traditional general universities. The RU has grouped its research within research institutes with the aim of creating an optimal research environment which has focus and critical mass. The institute for Molecules and Materials (IMM) is an interdisciplinary research institute in chemistry and physics at the Faculty of Science of the RU and counts the Nobel laureates in Physics (2012, A. Geim and K. Novoselov) among its visiting professors. Its mission is to fundamentally understand, design and control the func- tioning of molecules and materials. Its unique experimental facilities, backed up by strong theoretical groups, together with a balanced educational programme, guarantee an excellent environment for training Ph.D. students and young scientists in these interdisciplinary fields of science.",
+                "keyMem" : ["tijs", "gerrit", "ad"]
+            },
+            "UMK":{
+                "title": "Nicolaus Copernicus University in Torun (UMK)",
+                "short": "Uniwersytet Mikołaja Kopernika w Toruniu",
+                "img": "./src/img/beneficiaries/umk.png",
+                "website": {
+                    "name": "UMK",
+                    "link": "https://www.umk.pl/"
                 },
-                {
-                    "title": "CSIC: Agencia Estatal Consejo Superior de Investigaciones Científicas. Institute of Funda- mental Physics",
-                    "img": "./src/img/beneficiaries/csic.png",
-                    "website": {
-                        "name": "CSIC",
-                        "link": "https://www.csic.es/"
-                    },
-                    "content": "The Spanish National Research Council (CSIC) is the largest public institution dedicated to research in Spain and the third largest in Europe. Belonging to the Spanish Ministry of Sci- ence, Innovation and Universities through the State Secretariat for Research, Development and Innovation, CSIC addresses four key objetives: (1) to foster multidisciplinary scientific and technological research; (2) to promote knowledge transfer to industry and society; (3) to educate and train both scientific and technical staff; (4) to create technology-based companies. CSIC offers a variety of training and specialization programs that can be accessed based on the academic level: 1) Degree students: there are CSIC-Universities agreements so that the final degree projects can be carried out at CSIC's research institutes as well as traineeships for students via Erasmus + programme; (2) Postgraduate students can benefit from (a) mentored research training at CSIC's research institutes, (b) masters studies since there are stable collaboration of CSIC's researchers in masters from several universities, (c) Erasmus Mundus Joint Master program; (3) Doctorate (PhD) the doctoral thesis can be led by a CSIC's researcher in a CSIC's research institute.",
-                    "members": [
-                        {
-                            "name": "Dr. M. Pilar de Lara-Castells",
-                            "profile": "http://www.abinitsim.iff.csic.es/mariapilardelaracastells"
-                        }
-                    ]
+                "content": "The Nicolaus Copernicus University in Torun ́ (NCU, since 1945). It is one of the largest universities in Poland. It provides graduate and postgraduate courses for almost 20,000 students. The Faculty of Physics, Astronomy and Informatics has state-of-the-art research infrastructure including the National Laboratory of Atomic, Molecular and Optical Physics (FAMO), the Center for Quantum Optics and the Interdisciplinary Center for Modern Technologies. The Faculty of Physics, Astronomy and Informatics is the top faculty at NCU Torun ́, which is ranked as 5th best university in Poland. The Faculty itself is ranked as the 5th best among the faculties of physics of all higher education institutions in Poland. Large amount of research in the institute focuses on spectroscopy - method development and application (in particular HITRAN database development) which is in line with PHYMOL. We are active partners in international programs (supported from government) for staff and student exchange in astronomy, atomic, molecular and chemical physics.",
+                "keyMem" : ["piotr"]
+            },
+            "CSIC":{
+                "title": "CSIC: Agencia Estatal Consejo Superior de Investigaciones Científicas. Institute of Fundamental Physics",
+                "short": "Consejo Superior de Investigaciones Científicas",
+                "img": "./src/img/beneficiaries/csic.png",
+                "website": {
+                    "name": "CSIC",
+                    "link": "https://www.csic.es/"
                 },
-                {
-                    "title": "Sorbonne Université (SU)",
-                    "img": "./src/img/beneficiaries/su.png",
-                    "website": {
-                        "name": "SU",
-                        "link": "https://www.sorbonne-universite.fr/"
-                    },
-                    "content": "Born from the merger of Universite ́ Pierre et Marie Curie and Universite ́ Paris Sorbonne, whose campuses are in the heart of Paris, Sorbonne Universite ́ covers all major disciplinary fields and offers new transversal academic and research programs. Sorbonne Universite ́ becomes a fully multidisciplinary research-intensive university with three faculties: Human- ities and Social Sciences, Medicine and Sciences & Engineering. With more than 55,600 students (among 10,200 international students), 4700 doctoral students and 6400 researchers, Sorbonne Universite ́  is one of the leading French universities.",
-                    "members": [
-                        {
-                            "name": "Prof. Jean-P. Piquemal",
-                            "profile": "https://piquemalresearch.com/"
-                        },
-                        {
-                            "name": "Dr. Louis Lagardere",
-                            "profile": "https://scholar.google.fr/citations?user=Iuujj6sAAAAJ&hl=fr"
-                        }
-                    ]
+                "content": "The Spanish National Research Council (CSIC) is the largest public institution dedicated to research in Spain and the third largest in Europe. Belonging to the Spanish Ministry of Sci- ence, Innovation and Universities through the State Secretariat for Research, Development and Innovation, CSIC addresses four key objetives: (1) to foster multidisciplinary scientific and technological research; (2) to promote knowledge transfer to industry and society; (3) to educate and train both scientific and technical staff; (4) to create technology-based companies. CSIC offers a variety of training and specialization programs that can be accessed based on the academic level: 1) Degree students: there are CSIC-Universities agreements so that the final degree projects can be carried out at CSIC's research institutes as well as traineeships for students via Erasmus + programme; (2) Postgraduate students can benefit from (a) mentored research training at CSIC's research institutes, (b) masters studies since there are stable collaboration of CSIC's researchers in masters from several universities, (c) Erasmus Mundus Joint Master program; (3) Doctorate (PhD) the doctoral thesis can be led by a CSIC's researcher in a CSIC's research institute.",
+                "keyMem" : ["pilar"]
+            },
+            "SU":{
+                "title": "Sorbonne Université (SU)",
+                "short": "Sorbonne Université",
+                "img": "./src/img/beneficiaries/su.png",
+                "website": {
+                    "name": "SU",
+                    "link": "https://www.sorbonne-universite.fr/"
                 },
-                {
-                    "title": "ELTE: Eötvös Lorand University, Complex Chemical Systems Research Group",
-                    "img": "./src/img/beneficiaries/elte.png",
-                    "website": {
-                        "name": "ELTE",
-                        "link": "https://www.elte.hu/"
-                    },
-                    "content": "Eötvös Loránd University (ELTE) is Hungary's most prestigious university with the richest traditions and the highest international rankings in the country. In recognition of this, ELTE became a Research University in 2010 and received the distinguished title of University of National Excellence in 2013, which attests to educational and research capacities, scientific outputs, and its wide-ranging international relations. With 8 faculties, 96 master's degree programs, more than 50 foreign-language programs, 76 academic lecturers (20% of all Hungarian academics), 16 PhD schools, 118 PhD programs, 25 800 students from more than 70 different countries ELTE offers the widest range of higher education options in Hungary.",
-                    "members": [
-                        {
-                            "name": "Prof. Attila G. Császár",
-                            "profile": "http://csaszar.chem.elte.hu/"
-                        }
-                    ]
+                "content": "Born from the merger of Universite ́ Pierre et Marie Curie and Universite ́ Paris Sorbonne, whose campuses are in the heart of Paris, Sorbonne Universite ́ covers all major disciplinary fields and offers new transversal academic and research programs. Sorbonne Universite ́ becomes a fully multidisciplinary research-intensive university with three faculties: Human- ities and Social Sciences, Medicine and Sciences & Engineering. With more than 55,600 students (among 10,200 international students), 4700 doctoral students and 6400 researchers, Sorbonne Universite ́  is one of the leading French universities.",
+                "keyMem" : ["jean", "louis"]
+            },
+            "ELTE":{
+                "title": "ELTE: Eötvös Lorand University, Complex Chemical Systems Research Group",
+                "short": "Eötvös Loránd Tudományegyetem",
+                "img": "./src/img/beneficiaries/elte.png",
+                "website": {
+                    "name": "ELTE",
+                    "link": "https://www.elte.hu/"
                 },
-                {
-                    "title": "AMS : Avantgarde Materials Simulations",
-                    "img": "./src/img/beneficiaries/ams.png",
-                    "website": {
-                        "name": "AMS",
-                        "link": "https://www.avmatsim.eu/"
-                    },
-                    "content": "AMS is the world-leading provider of software for crystal structure prediction (CSP) and crystal structure prediction contract research. AMS sells software and services to about 2/3 of the 20 largest pharmaceutical companies. AMS' success hinges on a unique combination of academic curiosity, moral integrity, technical excellence and industry focus.",
-                    "members": [
-                        {
-                            "name": "Dr. Marcus Neumann",
-                            "profile": "https://www.researchgate.net/profile/Marcus-Neumann-2"
-                        }
-                    ]
+                "content": "Eötvös Loránd University (ELTE) is Hungary's most prestigious university with the richest traditions and the highest international rankings in the country. In recognition of this, ELTE became a Research University in 2010 and received the distinguished title of University of National Excellence in 2013, which attests to educational and research capacities, scientific outputs, and its wide-ranging international relations. With 8 faculties, 96 master's degree programs, more than 50 foreign-language programs, 76 academic lecturers (20% of all Hungarian academics), 16 PhD schools, 118 PhD programs, 25 800 students from more than 70 different countries ELTE offers the widest range of higher education options in Hungary.",
+                "keyMem" : ["attila"]
+            },
+            "AMS":{
+                "title": "AMS : Avantgarde Materials Simulations",
+                "short": "Avant-garde Materials Simulation",
+                "img": "./src/img/beneficiaries/ams.png",
+                "website": {
+                    "name": "AMS",
+                    "link": "https://www.avmatsim.eu/"
                 },
-                {
-                    "title": "KIDO DYNAMICS SA",
-                    "img": "./src/img/beneficiaries/kido.png",
-                    "website": {
-                        "name": "KIDO",
-                        "link": "https://www.kidodynamics.com/"
-                    },
-                    "content": "Kido Dynamics is a company composed by scientists and engineers dedicated to democratize Big Data providing the most advanced solutions for Smart Cities. Kido's team develops their own solutions in Big Data and Machine Learning built on top of the state-of-the-art technologies. Kido's systems are deployed in the cloud, making them globally accessible. With strong background in theoretical physics, the lead scientists in Kido apply their knowledge in computation of quantum systems to solve Big Data problems in the growing complexity of human mobility and Smart Cities. These same techniques can be applied to solve a wide range of problems in computational quantum physics and chemistry.",
-                    "members": [
-                        {
-                            "name": "Dr. Alberto Hernando",
-                            "profile": "https://www.researchgate.net/profile/Alberto-Hernando-De-Castro"
-                        }
-                    ]
-                }
-            ]
+                "content": "AMS is the world-leading provider of software for crystal structure prediction (CSP) and crystal structure prediction contract research. AMS sells software and services to about 2/3 of the 20 largest pharmaceutical companies. AMS' success hinges on a unique combination of academic curiosity, moral integrity, technical excellence and industry focus.",
+                "keyMem" : ["marcus"]
+            },
+            "KIDO":{
+                "title": "KIDO DYNAMICS SA",
+                "short": "Kido Dynamics",
+                "img": "./src/img/beneficiaries/kido.png",
+                "website": {
+                    "name": "KIDO",
+                    "link": "https://www.kidodynamics.com/"
+                },
+                "content": "Kido Dynamics is a company composed by scientists and engineers dedicated to democratize Big Data providing the most advanced solutions for Smart Cities. Kido's team develops their own solutions in Big Data and Machine Learning built on top of the state-of-the-art technologies. Kido's systems are deployed in the cloud, making them globally accessible. With strong background in theoretical physics, the lead scientists in Kido apply their knowledge in computation of quantum systems to solve Big Data problems in the growing complexity of human mobility and Smart Cities. These same techniques can be applied to solve a wide range of problems in computational quantum physics and chemistry.",
+                "keyMem" : ["alberto"]
+            }
         }
-    ]
+    }
+
 }
