@@ -2,11 +2,11 @@
     "pageContent": {
         "title" : "RESEARCH PROJECTS",
         "type" : "accordion",
-        "description" : "All doctoral candidates (DCs) will be paid a generous salary on EU rates (these depend on the country in which the DC will be based, but are in excess of €3K per month), and will include mobility and family allowances. Normally, all DCs are funded for 36 months, but DC2 and DC7 will be funded for 48 months.\n\nFor information on the Application Process will be posted soon, but for inquiries into PHYMOL as a whole, or individual projects please contact the coordinator (email on the Contact section), or individual PIs (see on Members website).",
+        "description" : ["All doctoral candidates (DCs) will be paid a generous salary on EU rates (these depend on the country in which the DC will be based, but are in excess of €3K per month), and will include mobility and family allowances. Normally, all DCs are funded for 36 months, but DC2 and DC7 will be funded for 48 months.", "For information on the Application Process will be posted soon, but for inquiries into PHYMOL as a whole, or individual projects please contact the coordinator (email on the Contact section), or individual PIs (see on Members website)."],
         "data" : {
             "DC1" : {
                 "title" : "DC1: Towards the accurate description of the induction energy in SAPT",
-                "host" : "UMK",
+                "short_host" : "UMK",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
@@ -18,31 +18,31 @@
             },
             "DC2" : {
                 "title" : "DC2: Intermolecular interactions in excited states: the CO-CO* and other excimers",
-                "host" : "ELTE",
+                "short_host" : "ELTE",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
                 "objectives" : "One of the aims of the project is to benchmark electronic structure methods on complexes in electronically excited states. The initial focus will be on the CO-CO* excimer spectrum, as it can be studied in full dimensionality. The ground state has already been studied and the excimer spectrum can be measured. Start with calculations of diabatic interaction potentials for the CO-CO* excimer with existing electronic structure methods and with the SAPT and SAPT(DFT) methods for the CO-CO* excimer and the computation of the CO-CO* excimer spectrum. Apply SAPT-based methods to larger complexes such as the benzene dimer. Results from DC1 will be used if possible.",
                 "super" : ["attila"],
                 "cosup" : ["gerrit"],
-                "mento" : [""],
+                "mento" : ["iouli"],
                 "info": "dc2"
             },
             "DC3" : {
                 "title" : "DC3: Collision-induced absorption spectra calculated from ab initio potentials",
-                "host" : "RUN",
+                "short_host" : "RUN",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "48 months",
                 "objectives" : "To develop computational techniques for quantum mechanical nuclear motion to benchmark ab initio interaction potentials and to employ these to compute collisioninduced absorption (CIA) spectra used by (exo)planetary scientists. You will use ab initio methods such as SAPT(DFT) for computing ab initio potentials for molecular dimers, and use these to compute CIA spectra of complexes of interest such as O2-CO2 , CO2-H2, CO2-CO2, CH4-CO2, CH4-CH4, and CH4-N2. The spectra will be included into the HITRAN database, often used by scientists studying the terrestrial and planetary atmospheres. These results will be incorporated into atmospheric models and in the analysis of satellite data taken to monitor the atmosphere.",
                 "super" : ["tijs"],
                 "cosup" : ["piotr"],
-                "mento" : [""],
+                "mento" : ["iouli"],
                 "info": "dc3"
             },
             "DC4" : {
                 "title" : "DC4: Reparametrisation of semiempirical models",
-                "host" : "USC",
+                "short_host" : "USC",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
@@ -54,7 +54,7 @@
             },
             "DC5" : {
                 "title" : "DC5: Development of intermolecular force-fields with many-body dispersion interactions",
-                "host" : "SU",
+                "short_host" : "SU",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
@@ -66,7 +66,7 @@
             },
             "DC6" : {
                 "title" : "DC6: Consistent treatment of polarization and charge-delocalization in many-body systems",
-                "host" : "SU",
+                "short_host" : "SU",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
@@ -78,7 +78,7 @@
             },
             "DC7" : {
                 "title" : "DC7: How intermolecular interactions shape polymorphic energy landscapes",
-                "host" : "UL",
+                "short_host" : "UL",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
@@ -90,19 +90,19 @@
             },
             "DC8" : {
                 "title" : "DC8: State-of-the art modelling of new quantum materials: surface-supported metal atomic quantum clusters",
-                "host" : "CSIC",
+                "short_host" : "CSIC",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
                 "objectives" : "State-of-the-art modelling of the interaction of metal atomic quantum clusters AQCs (in either air, solution, or helium droplets) with the surface of technologically relevant materials, making the emphasis on the new optical and (photo-)catalytic properties acquired by the support as well as the the stability of the supported AQCs at high temperatures and oxygen pressures. A critical task is the development of accurate interaction models, particularly of the dispersion interaction, which are capable to characterising the interaction of the confined object (AQCs) by the confining environments, and also account for excitations. The proposed study is expected to provide basic, mechanistic information, and key simplifications that can be transferred to the reactions of industrial applications with the help of machine learning technologies.",
                 "super" : ["pilar"],
-                "cosup" : [""],
+                "cosup" : ["alberto"],
                 "mento" : ["piotr"],
                 "info": "dc8"
             },
             "DC9" : {
                 "title" : "DC9: Implicit machine-learning solvent models for confined spaces.",
-                "host" : "AMS",
+                "short_host" : "AMS",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
@@ -114,19 +114,19 @@
             },
             "DC10" : {
                 "title" : "DC10: Adapting state-of-the-art modelling of new quantum materials to industry-standard opensource big data analysis tools.",
-                "host" : "",
+                "short_host" : "KIDO",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",
                 "objectives" : "Developing a tool for expressing and computing quantum probability distributions in an efficient manner within Apache Spark in AWS cloud and efficient storage with Parquet and Presto DB to be used as training dataset for machine learning: 1) Familiarization with cloud environments as AWS for computation of simulations and storage of results; 2) Deploying and managing distributed systems with Apache Spark; 3) Creating an efficient data base with Parquet and a query system with Presto DB for accessing the results. 4) Exploiting big databases on quantum materials (e.g., AQCs) for training machine learning algorithms.",
-                "super" : [""],
+                "super" : ["alberto"],
                 "cosup" : ["pilar"],
                 "mento" : ["alston"],
                 "info": "dc10"
             },
             "DC11" : {
                 "title" : "DC11: Density-mapped FFs: Rapid prototyping of force-fields based on physical and ML mappings onto the electronic density",
-                "host" : "QMUL",
+                "short_host" : "QMUL",
                 "enrollment" : "Yes",
                 "start" : "Month 8",
                 "duration" : "36 months",

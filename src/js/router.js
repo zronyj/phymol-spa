@@ -4,7 +4,7 @@ import Partners from '../components/partners.js';
 import Members from '../components/members.js';
 import Projects from '../components/projects.js';
 
-const { createRouter, createWebHashHistory } = VueRouter;
+const { createRouter, createWebHistory } = VueRouter;
 
 async function getData(url) {
   return new Promise(function (resolve, reject) {
@@ -26,7 +26,7 @@ async function getData(url) {
 // Object retrieval
 const preHome = await getData('./src/data/home.json');
 const preBene = await getData('./src/data/beneficiaries.json');
-const part = await getData('./src/data/partners.json');
+const prePart = await getData('./src/data/partners.json');
 const people = await getData('./src/data/people.json');
 const preProjs = await getData('./src/data/projects.json');
 
@@ -47,6 +47,51 @@ for (const [key, value] of Object.entries(preBene.pageContent.data)) {
   }
   entry["members"] = mem;
   bene.pageContent.data.push(entry);
+}
+
+var part = {
+  "pageContent": {
+    "title" : prePart.pageContent.title,
+    "type" : prePart.pageContent.type,
+    "data" : []
+  }
+};
+
+for (const [key, value] of Object.entries(prePart.pageContent.data)) {
+  var par = [];
+  var entry = value;
+  for (const item of value.keyPar) {
+    par.push(people.rawContent[item]);
+  }
+  entry["members"] = par;
+  part.pageContent.data.push(entry);
+}
+
+var projs = {
+  "pageContent": {
+    "title" : preProjs.pageContent.title,
+    "type" : preProjs.pageContent.type,
+    "description" : preProjs.pageContent.description,
+    "data" : []
+  }
+}
+
+for (const [key, value] of Object.entries(preProjs.pageContent.data)) {
+  var entry = value;
+  entry["host"] = preBene.pageContent.data[value.short_host];
+  entry["supervisor"] = [];
+  entry["cosupervisor"] = [];
+  entry["mentor"] = [];
+  for (const item of value.super) {
+    entry["supervisor"].push(people.rawContent[item]);
+  }
+  for (const item of value.cosup) {
+    entry["cosupervisor"].push(people.rawContent[item]);
+  }
+  for (const item of value.mento) {
+    entry["mentor"].push(people.rawContent[item]);
+  }
+  projs.pageContent.data.push(entry);
 }
 
 var home = {
@@ -91,11 +136,11 @@ const routes = [
   { path: '/beneficiaries', component: Beneficiaries, props: {'package': bene} },
   { path: '/partners', component: Partners, props: {'package': part} },
   { path: '/members', component: Members, props: {'package': bene} },
-  { path: '/projects', component: Projects, props: {'package': preProjs} }
+  { path: '/projects', component: Projects, props: {'package': projs} }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 

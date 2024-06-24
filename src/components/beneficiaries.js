@@ -16,7 +16,7 @@ export default {
             var complete = '<div>\n';
             complete += `<h2>${item.pageContent.title}</h2>\n`;
             for (const beneCard of item.pageContent.data) {
-                var thisCard = '<div class="card benelistcard">\n';
+                var thisCard = `<div id="${beneCard.website.name}" class="card benelistcard">\n`;
                 thisCard += '<div class="row">\n';
                 thisCard += '<div class="col-md-3 imgcard">\n';
                 thisCard += `<img class="benelistimg" title="${beneCard.website.name}" src="${beneCard.img}" >\n`;

@@ -119,6 +119,48 @@
             "country" : "ES",
             "host" : "KIDO",
             "img" : "./src/img/members/alberto.webp"
+        },
+        "teresa" : {
+            "name": "Prof. Teresa Head-Gordon",
+            "profile": "https://thglab.berkeley.edu/",
+            "country": "US",
+            "host": "molssi"
+        },
+        "konrad" : {
+            "name": "Prof. Konrad Patkowski",
+            "profile": "https://www.auburn.edu/cosam/faculty/chemistry/patkowski/",
+            "country": "US",
+            "host": "auburn"
+        },
+        "iouli" : {
+            "name": "Dr. Iouli E. Gordon",
+            "profile": "https://lweb.cfa.harvard.edu/~igordon/",
+            "country": "US",
+            "host": "hitran"
+        },
+        "arturo" : {
+            "name": "Prof. M. Arturo López-Quintela",
+            "profile": "https://investigacion.usc.gal/investigadores/59485/detalle?lang=en",
+            "country": "ES",
+            "host": "nanogap"
+        },
+        "andres" : {
+            "name": "Dr. Andrés Gómez",
+            "profile": "https://www.linkedin.com/in/andr%C3%A9s-g%C3%B3mez-779161a/",
+            "country": "ES",
+            "host": "cesga"
+        },
+        "aurelio" : {
+            "name": "Dr. Aurelio Rodrígez",
+            "profile": "https://www.linkedin.com/in/cesga-aurelio-rodr%C3%ADguez/",
+            "country": "ES",
+            "host": "cesga"
+        },
+        "thomas" : {
+            "name": "Dr. Thomas Preston",
+            "profile": "https://soldrevet.com/about/",
+            "country": "NO",
+            "host": "soldrevet"
         }
     }
 }
