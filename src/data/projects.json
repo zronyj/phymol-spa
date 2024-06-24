@@ -63,6 +63,78 @@
                 "cosup" : ["alex"],
                 "mento" : ["marcus"],
                 "info": "dc5"
+            },
+            "DC6" : {
+                "title" : "DC6: Consistent treatment of polarization and charge-delocalization in many-body systems",
+                "host" : "SU",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "The ISA, ISApol and regularized-SAPT(DFT) techniques developed by Misquitta et al. have been successfully used in constructing accurate many-body polarization models for molecular simulations of complexes which are strongly polarizable. But these techniques do not yet treat systems with conformational flexibilty and do not treat charge-delocalization consistently. In this project we aim to fix both problems and implement solutions in Tinker-HP. 1) Develop and/or collect reference many-body data on small molecular clusters and single molecule properties for flexible molecules. 2) Establish state-of-the-art by comparisons against models developed using Reg-SAPT(DFT), AMOEBA, and other relevant polarizable force-fields. 3) Develop theoretical framework for bare multipoles and polarizabilities which, when coupled, are able to reproduce reference properties from (1). 4) Develop consistent model for many-body charge-delocalisation based on unified reg-SAPT(DFT) and Thole-damped classical polarizable models. 5) Benchmark models against reference data from (1) and apply to molecular crystals in Tinker-HP.",
+                "super" : ["jean", "louis"],
+                "cosup" : ["alston"],
+                "mento" : ["marcus"],
+                "info": "dc6"
+            },
+            "DC7" : {
+                "title" : "DC7: How intermolecular interactions shape polymorphic energy landscapes",
+                "host" : "UL",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "We have shown that the DFT+MBD approach can deliver quantitative relative energies of polymorphic molecular crystals of pharmaceutical interest (Hoja et al., Science Advances (2019)). Next we need to understand the interplay of different interactions that characterize polymorphic energy landscapes. This is crucial for drug formulation. The DC will construct a systematic set of molecules (from small to large; varying functional groups) and calculate their polymorphic energy landscapes using the DFT+MBD method. This will lead to both fundamental understanding of structure-property relations in molecular crystals and provide useful guidance for pharmaceutical development.",
+                "super" : ["alex"],
+                "cosup" : ["marcus"],
+                "mento" : ["alston"],
+                "info": "dc7"
+            },
+            "DC8" : {
+                "title" : "DC8: State-of-the art modelling of new quantum materials: surface-supported metal atomic quantum clusters",
+                "host" : "CSIC",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "State-of-the-art modelling of the interaction of metal atomic quantum clusters AQCs (in either air, solution, or helium droplets) with the surface of technologically relevant materials, making the emphasis on the new optical and (photo-)catalytic properties acquired by the support as well as the the stability of the supported AQCs at high temperatures and oxygen pressures. A critical task is the development of accurate interaction models, particularly of the dispersion interaction, which are capable to characterising the interaction of the confined object (AQCs) by the confining environments, and also account for excitations. The proposed study is expected to provide basic, mechanistic information, and key simplifications that can be transferred to the reactions of industrial applications with the help of machine learning technologies.",
+                "super" : ["pilar"],
+                "cosup" : [""],
+                "mento" : ["piotr"],
+                "info": "dc8"
+            },
+            "DC9" : {
+                "title" : "DC9: Implicit machine-learning solvent models for confined spaces.",
+                "host" : "AMS",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "The goal is to pave the way for the the crystal structure prediction of pocket and channel solvates (in particular hydrates) by the development of an implicit solvent model that yields reliable results even when the motion of the solvent molecules is restrained by the boundaries of the crystal cavity in which their motion takes place. Steps: 1) Develop atomistic methods to assess the free energy of solvent pockets and channels against experimental stability information for solvates and neat forms. 2) Design and implement an automated procedure for the atomistic modelling calculation of the free energy of solvate pockets and channels for experimental crystal structures (from crystallographic databases) and/or putative crystal structures (from CSP). 3) Develop and parameterize a machine-learning implicit solvent model that assesses the pocket and channel free energy taking the cavity shape, size and surface charge density distribution as input.",
+                "super" : ["marcus"],
+                "cosup" : ["alex"],
+                "mento" : ["alston"],
+                "info": "dc9"
+            },
+            "DC10" : {
+                "title" : "DC10: Adapting state-of-the-art modelling of new quantum materials to industry-standard opensource big data analysis tools.",
+                "host" : "",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "Developing a tool for expressing and computing quantum probability distributions in an efficient manner within Apache Spark in AWS cloud and efficient storage with Parquet and Presto DB to be used as training dataset for machine learning: 1) Familiarization with cloud environments as AWS for computation of simulations and storage of results; 2) Deploying and managing distributed systems with Apache Spark; 3) Creating an efficient data base with Parquet and a query system with Presto DB for accessing the results. 4) Exploiting big databases on quantum materials (e.g., AQCs) for training machine learning algorithms.",
+                "super" : [""],
+                "cosup" : ["pilar"],
+                "mento" : ["alston"],
+                "info": "dc10"
+            },
+            "DC11" : {
+                "title" : "DC11: Density-mapped FFs: Rapid prototyping of force-fields based on physical and ML mappings onto the electronic density",
+                "host" : "QMUL",
+                "enrollment" : "Yes",
+                "start" : "Month 8",
+                "duration" : "36 months",
+                "objectives" : "1) Derive a unified theoretical framework for the mapping of terms in physically motivated FFs onto properties of the atoms-in-a-molecule (AIM) densities. 2) Derive and implement robust methods for extraction of AIM properties based on the basis-space ISA (iterated stockholder atoms) algorithm. 3) Derive methods to approximate the polarization damping and charge-delocalisation energies based on AIM properties (first and second-order). 4) Implement all methods in an open-source Python code. 5) Combine the physics-based models with ML to make improved mappings between AIM properties and optimized FF parameters. 6) Apply the resulting models in Tinker-HP for test systems for which accurate reference data is available (e.g. pyridine dimer and complexes involving water).",
+                "super" : ["alston"],
+                "cosup" : ["alex"],
+                "mento" : ["berta"],
+                "info": "dc11"
             }
         }
     }
