@@ -26,7 +26,7 @@ export default {
                 thisItem += '</h4>\n';
                 thisItem += `<div id="collapse${accoItem.info}" class="accordion-collapse collapse">\n`;
                 thisItem += '<div class="accordion-body">\n';
-                thisItem += `<p class="memlinks"><b>Host:</b> <router-link to="/beneficiaries#${accoItem.host.website.name}">${accoItem.host.short} (${accoItem.host.website.name})</a></p>\n`;
+                thisItem += `<p class="memlinks"><b>Host:</b> <router-link to="/beneficiaries#${accoItem.host.website.name}">${accoItem.host.short} (${accoItem.host.website.name})</router-link></p>\n`;
                 thisItem += `<p><b>PhD Enrollment:</b> ${accoItem.enrollment}</p>\n`;
                 thisItem += `<p><b>Start Date:</b> ${accoItem.start}</p>\n`;
                 thisItem += `<p><b>Duration:</b> ${accoItem.duration}</p>\n`;
