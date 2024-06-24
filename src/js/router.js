@@ -4,7 +4,7 @@ import Partners from '../components/partners.js';
 import Members from '../components/members.js';
 import Projects from '../components/projects.js';
 
-const { createRouter, createWebHistory } = VueRouter;
+const { createRouter, createWebHashHistory } = VueRouter;
 
 async function getData(url) {
   return new Promise(function (resolve, reject) {
@@ -140,7 +140,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/phymol-spa/'),
+  history: createWebHashHistory(),
   routes
 })
 
