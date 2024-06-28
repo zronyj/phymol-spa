@@ -1,4 +1,5 @@
 import Home from '../components/home.js';
+import Phymol from '../components/phymol.js';
 import Beneficiaries from '../components/beneficiaries.js';
 import Partners from '../components/partners.js';
 import Members from '../components/members.js';
@@ -25,6 +26,7 @@ async function getData(url) {
 
 // Object retrieval
 const preHome = await getData('./src/data/home.json');
+const prePhy = await getData('./src/data/phymol.json');
 const preBene = await getData('./src/data/beneficiaries.json');
 const prePart = await getData('./src/data/partners.json');
 const people = await getData('./src/data/people.json');
@@ -133,6 +135,7 @@ for (const item of part.pageContent.data) {
 // Setting the routes in place
 const routes = [
   { path: '/', component: Home, props: {'package': home} },
+  { path: '/project', component: Phymol, props: {'package': prePhy} },
   { path: '/beneficiaries', component: Beneficiaries, props: {'package': bene} },
   { path: '/partners', component: Partners, props: {'package': part} },
   { path: '/members', component: Members, props: {'package': bene} },
@@ -141,7 +144,19 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes: routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        top: 88
+      }
+    } else {
+      return {
+        top: 0
+      }
+    }
+  }
 })
 
 export default router
