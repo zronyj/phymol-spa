@@ -1,6 +1,7 @@
 export default {
     data () {
         return {
+            candidate: "dc1",
             content: null
         }
     },
@@ -11,15 +12,23 @@ export default {
     methods: {
         populateData: function() {
             this.content = this.$props.package;
+            this.candidate = this.$route.params.dc;
         },
         buildComponent: function(item) {
             var complete = '<div>\n';
-            complete += `<h2>${item.pageContent[0].title}</h2>\n`;
-            for (var item2 of item.pageContent[0].data) {
-                complete += `<p>${item2}</p>\n`;
+            complete += `<h2>${item.pageContent[this.candidate].title}</h2>\n`;
+            for (const [key, value] of Object.entries(item.pageContent[this.candidate].content)) {
+                if (key != "Webpage:") {
+                    complete += `<p><b>${key}</b> ${value}</p>\n`;
+                } else {
+                    complete += `<p class="memlinks"><b>${key}</b> <a href="${value.url}" target="_blank">${value.title}</a></p>\n`;
+                }
             }
             complete += '</div>\n';
             return complete;
+        },
+        fetchDC: function(key) {
+            return key;
         }
     },
     computed: {
@@ -39,5 +48,11 @@ export default {
     },
     created() {
         this.populateData();
+        this.$watch(
+            () => this.$route.params.dc,
+            (newId, oldId) => {
+              this.candidate = newId;
+            }
+        )
     }
  }

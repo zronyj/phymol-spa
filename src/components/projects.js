@@ -20,7 +20,7 @@ export default {
             }
             complete += '<div class="accordion" id="accordionProjects">\n';
             for (const accoItem of item.pageContent.data) {
-                var thisItem = '<div class="accordion-item">\n';
+                var thisItem = `<div id="${accoItem.info}" class="accordion-item">\n`;
                 thisItem += '<h4 class="accordion-header">\n';
                 thisItem += `<button class="accordion-button collapsed accordionTitle" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${accoItem.info}" aria-expanded="false" aria-controls="collapse${accoItem.info}">${accoItem.title}</button>`;
                 thisItem += '</h4>\n';
@@ -45,6 +45,9 @@ export default {
                 for (var k = 0; k < accoItem.mentor.length; k++) {
                     thisItem += `<router-link to="/members#${accoItem.mento[k]}">${accoItem.mentor[k].name} (${accoItem.mentor[k].host.toUpperCase()})</router-link> `;
                 }
+                thisItem += '</p>\n';
+                thisItem += '<p class="memlinks"><b>Further information:</b> ';
+                thisItem += `<router-link to="/dcs/${accoItem.info}">Project details of ${accoItem.info.toUpperCase()}</router-link> `;
                 thisItem += '</p>\n';
                 thisItem += '\n</div>\n'; // body
                 thisItem += '</div>\n'; // collapse

@@ -4,6 +4,7 @@ import Beneficiaries from '../components/beneficiaries.js';
 import Partners from '../components/partners.js';
 import Members from '../components/members.js';
 import Projects from '../components/projects.js';
+import Candidates from '../components/doctoral_candidates.js';
 
 const { createRouter, createWebHashHistory } = VueRouter;
 
@@ -31,6 +32,7 @@ const preBene = await getData('./src/data/beneficiaries.json');
 const prePart = await getData('./src/data/partners.json');
 const people = await getData('./src/data/people.json');
 const preProjs = await getData('./src/data/projects.json');
+const candi = await getData('./src/data/doctoral_candidates.json');
 
 // Finished object construction
 var bene = {
@@ -139,17 +141,19 @@ const routes = [
   { path: '/beneficiaries', component: Beneficiaries, props: {'package': bene} },
   { path: '/partners', component: Partners, props: {'package': part} },
   { path: '/members', component: Members, props: {'package': bene} },
-  { path: '/projects', component: Projects, props: {'package': projs} }
+  { path: '/projects', component: Projects, props: {'package': projs} },
+  { path: '/dcs/:dc', component: Candidates, props: {'package': candi} }
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes: routes,
   scrollBehavior(to, from, savedPosition) {
+    var offset = document.getElementById("nav").offsetHeight;
     if (to.hash) {
       return {
         el: to.hash,
-        top: 88
+        top: offset
       }
     } else {
       return {
