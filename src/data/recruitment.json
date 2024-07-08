@@ -1,0 +1,47 @@
+{
+    "pageContent" : {
+        "title" : "Why apply to PHYMOL?",
+        "description" : "PHYMOL is a doctoral network that combines training and research in almost equal parts. Further, the network is built around a community of leading researchers and all doctoral candidates will be part of this community through secondments, training schools, PHYMOL events, and conferences. Here's what you could stand to get from PHYMOL:",
+        "data" : [
+            "The chance to participate in workshops and conferences.",
+            "To interact with international laboratories and industrial partners.",
+            "To perform cutting-edge research in a community of excellent researchers, both academic and industrial.",
+            "To be involved with cool science that combines fundamental physics, chemical physics, models, machine-learning, and applying to challenging problems.",
+            "To be able to travel to partners, conferences, laboratories."
+        ],
+        "acoordion" : {
+            "Conditions for all applicants" : {
+                "Nationality" : "We welcome applicants of any nationality.",
+                "Degree" : "We strongly recommend applicants must hold a MSc or equivalent degree in the field of physics, chemistry, or chemical engineering. If you have another degree and are very interested in our projects get in touch with us (see contact information). <u>Note that you cannot already have a PhD degree.</u>",
+                "Skills" : "Applicants must have the necessary academic skills and background to make the success of a doctoral degree. The skills needed will depend on the project chosen, but will normally include a good theoretical and mathematical background, and a strong ability in programming, or a willingness to learn programming techniques.",
+                "MSCA Mobility rule" : "Researchers must not have resided or carried out their main activity (work, studies, etc.) in the country of the host organisation for more than 12 months in the 3 years immediately before the recruitment date. Compulsory national service, short stays such as holidays, and time spent as part of a procedure for obtaining refugee status are not taken into account.",
+                "data" : [
+                    "Additional conditions may apply and these will normally be specific to individual candidates and particular institutes:",
+                    [
+                        "<b>Local institute requirements:</b> Additionally, DC applicants must fulfil the local requirements of the recruiting institutions.",
+                        "Applicants must be eligible to enrol on a PhD programme at the host institution (or at a designated university in case the host institution is a non-academic organisation)."
+                    ],
+                    "Due to the nature of the PHYMOL network and our research requirements we have the following specific requirements from candidates:",
+                    [
+                        "A Masters' degree (MSc, MSci, Euro Masters, or equivalent) in physics, chemistry or related subjects.",
+                        "A proficiency in English. Non-EU applicants may need to provide evidence of language skills.",
+                        "A solid background in physics/chemistry with a strong mathematical foundation.",
+                        "Experience in programming (Python, and possibly Fortran95/C++) or a strong willingness to learn programming.",
+                        "Experience or exposure to Linux/Unix would be welcome as this will prove essential.",
+                        "An ability to work with others and an interest in scientifically engaging with different people and institutes."
+                    ]
+                ]
+            },
+            "The application procedure" : {},
+            "The selection process" : {}
+        },
+        "contact" : "After filling in the Recruitment form (see 'The application procedure' above), please <b>send your full application or any queries to</b> <a href='mailto:phymol@umk.pl'>phymol@umk.pl</a>. In case of any inquiries about open positions and recruitment, please contact us via this email.",
+        "timelines" : [
+            "Accepting pre-applications: immediately.",
+            "Initial application deadline: <b>01.03.2023 (not applicable to DC5)</b>",
+            "<b>Application deadline for DC5 has been extended and we continue to accept applications. Candidates wanting to apply for these positions please complete the PHYMOL recruitment process on this page, and also apply directly to</b> <a href='https://www.avmatsim.eu/recruitment'>AMS on their recruitment page</a>.",
+            "Candidates wanting to apply for these positions may also want to contact the PI of the DC5 project: <a href='marcus.neumann@avmatsim.eu'>Marcus Neumann</a>",
+            "Start date for doctoral candidates: Between 15.03.2023 and 01.09.2024"
+        ]
+    }
+}

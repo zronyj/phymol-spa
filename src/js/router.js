@@ -5,6 +5,11 @@ import Partners from '../components/partners.js';
 import Members from '../components/members.js';
 import Projects from '../components/projects.js';
 import Candidates from '../components/doctoral_candidates.js';
+import Recruitment from '../components/recruitment.js';
+import Events from '../components/events.js';
+import Training from '../components/training.js';
+import Impact from '../components/impact.js';
+import Calendar from '../components/calendar.js';
 
 const { createRouter, createWebHashHistory } = VueRouter;
 
@@ -142,7 +147,12 @@ const routes = [
   { path: '/partners', component: Partners, props: {'package': part} },
   { path: '/members', component: Members, props: {'package': bene} },
   { path: '/projects', component: Projects, props: {'package': projs} },
-  { path: '/dcs/:dc', component: Candidates, props: {'package': candi} }
+  { path: '/dcs/:dc', component: Candidates, props: {'package': candi} },
+  { path: '/recruitment', component: Recruitment },
+  { path: '/events', component: Events },
+  { path: '/training', component: Training },
+  { path: '/impact', component: Impact },
+  { path: '/calendar', component: Calendar }
 ]
 
 const router = createRouter({
