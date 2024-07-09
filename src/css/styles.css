@@ -94,6 +94,14 @@ body {
     padding: 0;
 }
 
+p {
+    color: #555;
+}
+
+li {
+    color: #555;
+}
+
 header h1 {
     margin: 0;
 }
@@ -107,6 +115,14 @@ h2, h3 {
     color: #AD8F6B !important;
     font-weight: bold !important;
     background-color: white !important;
+}
+
+.accordion a:link ,
+.accordion a:visited,
+.accordion a:hover,
+.accordion a:active { 
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .page-content {

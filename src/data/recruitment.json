@@ -9,20 +9,27 @@
             "To be involved with cool science that combines fundamental physics, chemical physics, models, machine-learning, and applying to challenging problems.",
             "To be able to travel to partners, conferences, laboratories."
         ],
-        "acoordion" : {
+        "accordion" : {
             "Conditions for all applicants" : {
-                "Nationality" : "We welcome applicants of any nationality.",
-                "Degree" : "We strongly recommend applicants must hold a MSc or equivalent degree in the field of physics, chemistry, or chemical engineering. If you have another degree and are very interested in our projects get in touch with us (see contact information). <u>Note that you cannot already have a PhD degree.</u>",
-                "Skills" : "Applicants must have the necessary academic skills and background to make the success of a doctoral degree. The skills needed will depend on the project chosen, but will normally include a good theoretical and mathematical background, and a strong ability in programming, or a willingness to learn programming techniques.",
-                "MSCA Mobility rule" : "Researchers must not have resided or carried out their main activity (work, studies, etc.) in the country of the host organisation for more than 12 months in the 3 years immediately before the recruitment date. Compulsory national service, short stays such as holidays, and time spent as part of a procedure for obtaining refugee status are not taken into account.",
-                "data" : [
-                    "Additional conditions may apply and these will normally be specific to individual candidates and particular institutes:",
-                    [
+                "Basic requirements" : {
+                    "description" : "",
+                    "data" : [
+                        "<b>Nationality</b> We welcome applicants of any nationality.",
+                        "<b>Degree</b> We strongly recommend applicants must hold a MSc or equivalent degree in the field of physics, chemistry, or chemical engineering. If you have another degree and are very interested in our projects get in touch with us (see contact information). <u>Note that you cannot already have a PhD degree.</u>",
+                        "<b>Skills</b> Applicants must have the necessary academic skills and background to make the success of a doctoral degree. The skills needed will depend on the project chosen, but will normally include a good theoretical and mathematical background, and a strong ability in programming, or a willingness to learn programming techniques.",
+                        "<b>MSCA Mobility rule</b> Researchers must not have resided or carried out their main activity (work, studies, etc.) in the country of the host organisation for more than 12 months in the 3 years immediately before the recruitment date. Compulsory national service, short stays such as holidays, and time spent as part of a procedure for obtaining refugee status are not taken into account."
+                    ]
+                },
+                "Additional requirements" : {
+                    "description" : "Additional conditions may apply and these will normally be specific to individual candidates and particular institutes:",
+                    "data" : [
                         "<b>Local institute requirements:</b> Additionally, DC applicants must fulfil the local requirements of the recruiting institutions.",
                         "Applicants must be eligible to enrol on a PhD programme at the host institution (or at a designated university in case the host institution is a non-academic organisation)."
-                    ],
-                    "Due to the nature of the PHYMOL network and our research requirements we have the following specific requirements from candidates:",
-                    [
+                    ]
+                },
+                "Specific requirements" : {
+                    "description" : "Due to the nature of the PHYMOL network and our research requirements we have the following specific requirements from candidates:",
+                    "data" : [
                         "A Masters' degree (MSc, MSci, Euro Masters, or equivalent) in physics, chemistry or related subjects.",
                         "A proficiency in English. Non-EU applicants may need to provide evidence of language skills.",
                         "A solid background in physics/chemistry with a strong mathematical foundation.",
@@ -30,17 +37,63 @@
                         "Experience or exposure to Linux/Unix would be welcome as this will prove essential.",
                         "An ability to work with others and an interest in scientifically engaging with different people and institutes."
                     ]
-                ]
+                }
             },
-            "The application procedure" : {},
-            "The selection process" : {}
+            "The application procedure" : {
+                "Before you apply" : "First of all, if you are interested in applying for projects in PHYMOL, make a short list of projects you are interested in. These can be found on the <router-link to='/projects'>PROJECTS</router-link> tab on our web page. These projects are linked to particular researchers and institutes, so please get in touch with those researchers using the contact details provided. You will benefit from this contact in writing the motivational letter.",
+                "Recruitment procedure" : "Official recruitment for PHYMOL begins only on the 1st of February 2023, but you can use the following process to pre-register your interest in PHYMOL projects, and also deposit your documents with us. There will be no advantage to putting in an early application other than that this will give you time to establish contact with the project supervisors and thereby learn more about the projects.",
+                "odata" : [
+                    "Fill in the <a href='https://forms.gle/G5TDHb8s3dpxmbKE9'>Recruitment form</a> (online) and submit it.",
+                    "<b>Compile your documents in one PDF file</b>, following the order:",
+                    [
+                        "<b>Motivation letter of no more than 2 pages (see below for some suggestions for this letter)</b>",
+                        "<b>CV</b>",
+                        "<b>Copies of transcripts of any obtained degrees (please include translations into English, if needed)</b>",
+                        "<b>Contact details (names, email, university) of two academic referees. Please ensure that you have informed your referees about your application</b>"
+                    ],
+                    "Make sure that the application is written in English.",
+                    "Submit all the above documents via e-mail <b>as a single pdf file</b> to <a href='mailto:phymol@umk.pl'>phymol@umk.pl</a>. If you have trouble joining the files into one, submit them as separate files with file names that make it clear what is contained. The file name/s should include your name, e.g., GJ_Williams__CV.pdf.",
+                    "As the subject of your email, please use <b>PHYMOL application: your name.</b>",
+                    "The individual DC projects are set to start between (DD.MM.YYYY): <b>15.03.2023 and 01.09.2023.</b>",
+                    "<b>APPLICATION DEADLINE: The initial deadline is 01.03.2023, after which we will start the recruitment process, but we may accept applications after this date, until all positions are filled.</b>",
+                    "<b>APPLICATION DEADLINE EXTENDED for DC5 and DC6: As we are still recruiting for these positions, we will accept applications until they are filled.</b>"
+                ],
+                "Motivation letter: what should it contain?" : {
+                    "description" : "Here are some of the things we will look for in the motivation letter you provide:",
+                    "data" : [
+                        "Your background: Information on projects you have conducted as part of your undergraduate degree.",
+                        "Your experience: Any special courses, or internships you have participated in that have given you skills that could be useful in PHYMOL.",
+                        "Your choice of projects: Which projects have you selected?",
+                        "Reasons for these choices: Why have you selected these? What is it that you find interesting? Perhaps you have read some of the research papers included in the project descriptions (remember you can always ask project supervisors for these if you can't access them), in which case, maybe there is something in these papers that you find interesting.",
+                        "Why PHYMOL?: The PHYMOL Doctoral Network is special and differs from most PhD schools in the breadth of skills we want to address. Why have you chosen PHYMOL? Was there something about it that caught your attention? We'd like to know."
+                    ]
+                },
+                "Final remarks on the letter" : "<i>Keep this letter to no more than 2 pages of 11pt fonts. The purpose of this letter is to allow us to get an idea of who you are and to gauge your level of interest in PHYMOL. So make sure it does just that.</i>"
+            },
+            "The selection process" : {
+                "" : "The PHYMOL selection procedure for DCs will be open, transparent, merit-based and in line with the <a href='https://euraxess.ec.europa.eu/jobs/charter/code'>Code of Conduct for the Recruitment of Researchers</a>.",
+                "data" : [
+                    "After the initial deadline of the application process on <b>01.03.2023</b> which has been <b>extended for DC5 and DC6</b>, we aim to review and rank all documents within 2 to 3 weeks, though it is possible that the timeframe could change for individual cases.",
+                    "We will make a short-list of between 6 to 12 applicants per research post.",
+                    "This short-list will be determined on the basis of the submitted material, that is, on the candidate's qualifications, prior experience, letters of reference, and the letter of motivation.",
+                    "Shortlisted applicants will be invited for interviews. These will normally be online.",
+                    "Those not selected will be informed.",
+                    "The interview panels will consist of the project PIs and others from the PHYMOL team. We will attempt to make the panel as diverse as possible.",
+                    "Candidates will be ranked and invited to join PHYMOL in order of their ranking. This process may take a few weeks.",
+                    "We will keep a small number of candidates on a reserve list just in case candidates pull out before the final recruitment stage.",
+                    "Successful candidates will be informed as soon as possible after the interview.",
+                    "<b>Successful candidates will receive a country-dependent financial package including mobility and family allowance</b> (the latter, if applicable) and will be employed according to the rules for Early Stage Researchers in and Marie Skłodowska-Curie Actions Doctoral Network (DN) and the general regulations of each host institution. This will apply to all candidates, including the one funded through UKRI.",
+                    "Successful candidates will be subsequently enrolled onto the PhD programmes of appropriate universities. This is a separate process that may require additional documentation and possibly qualifications like language tests. These will be made known to candidates.",
+                    "MSCA/UKRI <b>will cover three years of full-time research</b>, but final contract length and extension options depend on the host institution. We already expect some of the positions to be funded for 4 years, and others may be extended on a case-by-case basis."
+                ]
+            }
         },
         "contact" : "After filling in the Recruitment form (see 'The application procedure' above), please <b>send your full application or any queries to</b> <a href='mailto:phymol@umk.pl'>phymol@umk.pl</a>. In case of any inquiries about open positions and recruitment, please contact us via this email.",
         "timelines" : [
             "Accepting pre-applications: immediately.",
             "Initial application deadline: <b>01.03.2023 (not applicable to DC5)</b>",
             "<b>Application deadline for DC5 has been extended and we continue to accept applications. Candidates wanting to apply for these positions please complete the PHYMOL recruitment process on this page, and also apply directly to</b> <a href='https://www.avmatsim.eu/recruitment'>AMS on their recruitment page</a>.",
-            "Candidates wanting to apply for these positions may also want to contact the PI of the DC5 project: <a href='marcus.neumann@avmatsim.eu'>Marcus Neumann</a>",
+            "Candidates wanting to apply for these positions may also want to contact the PI of the DC5 project: <a href='mailto:marcus.neumann@avmatsim.eu'>Marcus Neumann</a>",
             "Start date for doctoral candidates: Between 15.03.2023 and 01.09.2024"
         ]
     }
