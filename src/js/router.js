@@ -39,6 +39,7 @@ const people = await getData('./src/data/people.json');
 const preProjs = await getData('./src/data/projects.json');
 const candi = await getData('./src/data/doctoral_candidates.json');
 const recruits = await getData('./src/data/recruitment.json');
+const events = await getData('./src/data/events.json');
 
 // Finished object construction
 var bene = {
@@ -150,7 +151,7 @@ const routes = [
   { path: '/projects', component: Projects, props: {'package': projs} },
   { path: '/dcs/:dc', component: Candidates, props: {'package': candi} },
   { path: '/recruitment', component: Recruitment, props: {'package': recruits}},
-  { path: '/events', component: Events },
+  { path: '/events', component: Events, props: {'package': events}},
   { path: '/training', component: Training },
   { path: '/impact', component: Impact },
   { path: '/calendar', component: Calendar }

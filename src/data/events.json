@@ -1,0 +1,52 @@
+{
+    "pageContent" : [
+        {
+            "date" : "",
+            "title" : "Website ready!!!",
+            "description" : "PHYMOL website is up and running! Thanks to a lot of work by our sysadmin Tibor.",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "",
+            "title" : "Accepting pre-applications now...",
+            "description" : "See the information in the RECRUITMENT tab for information on the pre-application process. Feel free to contact us at phymol@umk.pl",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "",
+            "title" : "PHYMOL starts!",
+            "description" : "Today is the first official day for the PHYMOL MSCA Doctoral Network. We are now accepting formal applications for the 11 PhD positions. <b>All existing pre-applications will now be considered as formal applications.</b>",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "",
+            "title" : "Still Recruiting!",
+            "description" : "We are still recruiting for PHYMOL! Although the initial deadline has passed, we are very much still in the recruitment stage, so please submit your applications following the instructions on the Recruitment page on this website.",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "",
+            "title" : "Still recruiting for DCs 5, 6, 7 and 8",
+            "description" : "We are still recruiting for DC5, DC6, DC7 and DC8. So please apply following the information on the Recruitment page. We aim to make offers to start from 1st September 2023.",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "",
+            "title" : "Update on recruitment: DC5 and DC6 still open!",
+            "description" : "We have now filled all but DC5 and DC6: if you are interested in these positions please get in touch with Alston J. Misquitta (a.j.misquitta@qmul.ac.uk), Louis Lagardere (louis.lagardere@upmc.fr) and Jean-Philip Piquemal (jean-philip.piquemal@sorbonne-universite.fr).",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "",
+            "title" : "PHYMOL Kick-Off meeting from the 12th to 15th of September in Luxembourg",
+            "description" : "We have an exciting kick-off meeting planned in Luxembourg from the 12th to the 15th of September 2023. This meeting marks the start of the scientific programme of PHYMOL. For details see the Events tab on this page, or go directly to the <a href='https://phymol.github.io/'>Kick-Off meeting web site</a>.",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "2024-07-04T22:00:00.000Z",
+            "title" : "New DC5 project now recruiting!!!",
+            "description" : "We have just updated the DC5 project (see the PROJECTS tab) and are recruiting for this. The new project will be held at Avant-Garde Materials Simulations. Recruitment instructions can be found at the very end of our RECRUITMENT page. Please apply now! We will try to fill this post as soon as possible.",
+            "img" : "./src/img/events/default.jpg"
+        }
+    ]
+}
