@@ -15,7 +15,7 @@ export default {
         buildComponent: function(item) {
             var complete = '<div>\n';
             complete += `<h2>EVENTS</h2>\n`;
-            for (const entry of item.pageContent.reverse()) {
+            for (const entry of item.pageContent) {
                 complete += '<div class="card border-dark text-bg-light benelistcard">\n';
                 complete += '<div class="row">\n';
                 complete += '<div class="col-md-2 imgcard">\n';

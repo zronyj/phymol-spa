@@ -39,9 +39,12 @@ const people = await getData('./src/data/people.json');
 const preProjs = await getData('./src/data/projects.json');
 const candi = await getData('./src/data/doctoral_candidates.json');
 const recruits = await getData('./src/data/recruitment.json');
-const events = await getData('./src/data/events.json');
+const preEvents = await getData('./src/data/events.json');
 
 // Finished object construction
+var events = preEvents;
+events.pageContent = events.pageContent.reverse();
+
 var bene = {
   "pageContent": {
     "title" : preBene.pageContent.title,
