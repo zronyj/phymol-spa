@@ -40,6 +40,14 @@
             "host" : "UL",
             "img" : "./src/img/members/alex.webp"
         },
+        "dahvyd" : {
+            "name": "Dr. Dahvyd Wing",
+            "profile": "https://www.tcpunilu.com/current-team-members#comp-kgfmh5m1__33eaad8f-9112-43bd-8de4-a74a54af51b2",
+            "department" : "Physics and Materials Science",
+            "country" : "LU",
+            "host" : "UL",
+            "img" : "./src/img/members/dahvyd.jpg"
+        },
         "tijs" : {
             "name": "Dr. Tijs Karma",
             "profile": "https://www.theochem.ru.nl/~tkarman/",
@@ -71,6 +79,14 @@
             "country" : "PL",
             "host": "UMK",
             "img" : "./src/img/members/piotr.jpg"
+        },
+        "anna" : {
+            "name": "Dr. hab. Anna Kaczmarek-Kędziera",
+            "profile": "https://www.chem.umk.pl/en/molmod/",
+            "department" : "Faculty of Chemistry NCU",
+            "country" : "PL",
+            "host": "UMK",
+            "img" : "./src/img/members/anna.png"
         },
         "pilar" : {
             "name": "Dr. M. Pilar de Lara-Castells",

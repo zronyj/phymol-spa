@@ -34,7 +34,7 @@
                     "link": "https://www.uni.lu/"
                 },
                 "content": "University of Luxembourg ranks 20th in the 2021 Times Higher Education Young University Ranking and 3rd worldwide in International Outlook. UL has 3100 employees, including 950 PhD candidates within three Doctoral Schools. The Doctoral School in Science & Engineering offers programs in Physics & Materials Science, Mathematics, Computer Science, Biology and Engineering, and Computational Sciences.",
-                "keyMem" : ["alex"]
+                "keyMem" : ["alex", "dahvyd"]
             },
             "RUN":{
                 "title": "Radboud University Nijmegen (RUN): Theoretical Chemistry Group",
@@ -56,7 +56,7 @@
                     "link": "https://www.umk.pl/"
                 },
                 "content": "The Nicolaus Copernicus University in Torun ́ (NCU, since 1945). It is one of the largest universities in Poland. It provides graduate and postgraduate courses for almost 20,000 students. The Faculty of Physics, Astronomy and Informatics has state-of-the-art research infrastructure including the National Laboratory of Atomic, Molecular and Optical Physics (FAMO), the Center for Quantum Optics and the Interdisciplinary Center for Modern Technologies. The Faculty of Physics, Astronomy and Informatics is the top faculty at NCU Torun ́, which is ranked as 5th best university in Poland. The Faculty itself is ranked as the 5th best among the faculties of physics of all higher education institutions in Poland. Large amount of research in the institute focuses on spectroscopy - method development and application (in particular HITRAN database development) which is in line with PHYMOL. We are active partners in international programs (supported from government) for staff and student exchange in astronomy, atomic, molecular and chemical physics.",
-                "keyMem" : ["piotr"]
+                "keyMem" : ["piotr", "anna"]
             },
             "CSIC":{
                 "title": "CSIC: Agencia Estatal Consejo Superior de Investigaciones Científicas. Institute of Fundamental Physics",
@@ -101,17 +101,6 @@
                 },
                 "content": "AMS is the world-leading provider of software for crystal structure prediction (CSP) and crystal structure prediction contract research. AMS sells software and services to about 2/3 of the 20 largest pharmaceutical companies. AMS' success hinges on a unique combination of academic curiosity, moral integrity, technical excellence and industry focus.",
                 "keyMem" : ["marcus"]
-            },
-            "KIDO":{
-                "title": "KIDO DYNAMICS SA",
-                "short": "Kido Dynamics",
-                "img": "./src/img/beneficiaries/kido.png",
-                "website": {
-                    "name": "KIDO",
-                    "link": "https://www.kidodynamics.com/"
-                },
-                "content": "Kido Dynamics is a company composed by scientists and engineers dedicated to democratize Big Data providing the most advanced solutions for Smart Cities. Kido's team develops their own solutions in Big Data and Machine Learning built on top of the state-of-the-art technologies. Kido's systems are deployed in the cloud, making them globally accessible. With strong background in theoretical physics, the lead scientists in Kido apply their knowledge in computation of quantum systems to solve Big Data problems in the growing complexity of human mobility and Smart Cities. These same techniques can be applied to solve a wide range of problems in computational quantum physics and chemistry.",
-                "keyMem" : ["alberto"]
             }
         }
     }

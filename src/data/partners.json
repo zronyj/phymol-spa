@@ -62,6 +62,16 @@
                 },
                 "content": "Soldrevet provides a) bespoke chemistry research in concert with small-medium chemical engineering firms through computational chemistry modelling and material-production process design, b) career guidance through one-on-one coaching and workshops, and c) computational chemical and physical modelling research with university research groups.\nDr. Thomas Preston (sole proprietor): applications of computational chemistry and chemical modelling for use in sustainable development; education and training for researchers.",
                 "keyPar": ["thomas"]
+            },
+            "kido" : {
+                "title": "KIDO DYNAMICS SA",
+                "img": "./src/img/partners/kido.png",
+                "website": {
+                    "name": "KIDO",
+                    "link": "https://www.kidodynamics.com/"
+                },
+                "content": "Kido Dynamics is a company composed by scientists and engineers dedicated to democratize Big Data providing the most advanced solutions for Smart Cities. Kido's team develops their own solutions in Big Data and Machine Learning built on top of the state-of-the-art technologies. Kido's systems are deployed in the cloud, making them globally accessible. With strong background in theoretical physics, the lead scientists in Kido apply their knowledge in computation of quantum systems to solve Big Data problems in the growing complexity of human mobility and Smart Cities. These same techniques can be applied to solve a wide range of problems in computational quantum physics and chemistry.",
+                "keyPar" : ["alberto"]
             }
         }
     }
