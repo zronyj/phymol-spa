@@ -53,15 +53,15 @@
                 "info": "dc4"
             },
             "DC5" : {
-                "title" : "DC5: Development of intermolecular force-fields with many-body dispersion interactions",
-                "short_host" : "SU",
+                "title" : "DC5: [NEW] AI/ML assisted parameter generation for an ab-initio-grade force field covering all mainstream organic chemistry",
+                "short_host" : "AMS",
                 "enrollment" : "Yes",
-                "start" : "Month 8",
-                "duration" : "36 months",
-                "objectives" : "The MBD method developed by Tkatchenko et al. is widely used to include vdW dispersion interactions in DFT calculations. The aim of this DC is to develop a unified intermolecular force field that combines electrostatics, polarization, and dispersion interactions on equal footing. 1) Develop the coupling between the AMOEBA & SIBFA polarizable force fields with MBD. 2) Assess models for deriving permanent and induced (static and fluctuating) moments and establish connections between them. 3) Evaluate performance on small molecules, supramolecular and biological systems, and molecular crystals. 4) Consider the transferability across chemical space of organic molecules using ML techniques in collaboration with Tkatchenko.",
-                "super" : ["jean"],
+                "start" : "As soon as possible",
+                "duration" : "up to 36 months",
+                "objectives" : "[NEW PROJECT] Tailor-made Force Fields (TMFFs), i.e. parametric force fields fitted fully automatically from scratch to ab initio data, have strongly contributed to AMS‘ success in the field of Crystal Structure Prediction (CSP) and are also available for use in third-party software through the Force Field Factory module in AMS‘ GRACE code. Because of their unique speed-accuracy compromise, parametric force fields will continue to play a role even when Machine Learning (ML) force fields will become generally applicable. The goal of the project is twofold: improve the mathematical framework of tailor-made force fields to further approach ab initio accuracy and reduce the CPU time requirements of the parameterization procedure.",
+                "super" : ["marcus"],
                 "cosup" : ["alex"],
-                "mento" : ["marcus"],
+                "mento" : ["alston"],
                 "info": "dc5"
             },
             "DC6" : {
@@ -77,11 +77,11 @@
                 "info": "dc6"
             },
             "DC7" : {
-                "title" : "DC7: How intermolecular interactions shape polymorphic energy landscapes",
+                "title" : "DC7: [NEW] Machine Learned force fields based on DFT+MDB",
                 "short_host" : "UL",
                 "enrollment" : "Yes",
-                "start" : "Month 8",
-                "duration" : "48 months",
+                "start" : "As soon as possible",
+                "duration" : "36 months",
                 "objectives" : "Accurate long-range interactions are crucial to enable machine learned force fields to work in the condensed phase. The goal of this project is to develop novel ways to test the ability of machine learned force fields (MLFF) to capture long-range intermolecular interactions via comparison to density functional theory with many body dispersion corrections and then to seek ways to improve the errors discovered.",
                 "super" : ["dahvyd"],
                 "cosup" : ["alex", "marcus"],

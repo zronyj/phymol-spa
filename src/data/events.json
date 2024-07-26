@@ -45,7 +45,13 @@
         {
             "date" : "2024-07-04T22:00:00.000Z",
             "title" : "New DC5 project now recruiting!!!",
-            "description" : "We have just updated the DC5 project (see the PROJECTS tab) and are recruiting for this. The new project will be held at Avant-Garde Materials Simulations. Recruitment instructions can be found at the very end of our RECRUITMENT page. Please apply now! We will try to fill this post as soon as possible.",
+            "description" : "We have just updated the DC5 project (see the <router-link to='/projects'>RESEARCH PROJECTS</router-link> tab) and are recruiting for this. The new project will be held at Avant-Garde Materials Simulations. Recruitment instructions can be found at the very end of our <router-link to='/recruitment'>RECRUITMENT</router-link> page. Please apply now! We will try to fill this post as soon as possible.",
+            "img" : "./src/img/events/default.jpg"
+        },
+        {
+            "date" : "2024-07-26T22:00:00.000Z",
+            "title" : "DC7 @Luxembourg : Recruiting for a new project",
+            "description" : "We are now recruiting for a new project at the University of Luxembourg. This project, like the new DC5 project, combines machine learning with quantum chemistry. See project details (under <router-link to='/projects'>RESEARCH PROJECTS</router-link>) and the very end of the <router-link to='/recruitment'>RECRUITMENT</router-link> page for details of how to apply.",
             "img" : "./src/img/events/default.jpg"
         }
     ]

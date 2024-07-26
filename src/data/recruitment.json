@@ -73,7 +73,7 @@
             "The selection process" : {
                 "" : "The PHYMOL selection procedure for DCs will be open, transparent, merit-based and in line with the <a href='https://euraxess.ec.europa.eu/jobs/charter/code'>Code of Conduct for the Recruitment of Researchers</a>.",
                 "data" : [
-                    "After the initial deadline of the application process on <b>01.03.2023</b> which has been <b>extended for DC5 and DC6</b>, we aim to review and rank all documents within 2 to 3 weeks, though it is possible that the timeframe could change for individual cases.",
+                    "After the initial deadline of the application process on <b>01.03.2023</b> which has been <b>extended for DC5 and DC7</b>, we aim to review and rank all documents within 2 to 3 weeks, though it is possible that the timeframe could change for individual cases.",
                     "We will make a short-list of between 6 to 12 applicants per research post.",
                     "This short-list will be determined on the basis of the submitted material, that is, on the candidate's qualifications, prior experience, letters of reference, and the letter of motivation.",
                     "Shortlisted applicants will be invited for interviews. These will normally be online.",
@@ -92,8 +92,9 @@
         "timelines" : [
             "Accepting pre-applications: immediately.",
             "Initial application deadline: <b>01.03.2023 (not applicable to DC5)</b>",
-            "<b>Application deadline for DC5 has been extended and we continue to accept applications. Candidates wanting to apply for these positions please complete the PHYMOL recruitment process on this page, and also apply directly to</b> <a href='https://www.avmatsim.eu/recruitment'>AMS on their recruitment page</a>.",
-            "Candidates wanting to apply for these positions may also want to contact the PI of the DC5 project: <a href='mailto:marcus.neumann@avmatsim.eu'>Marcus Neumann</a>",
+            "<b>We are now recruiting for a new DC5 and DC7. DC5 will be hosted at AMS (Germany) and DC7 at University of Luxenbourg.</b>.",
+            "Candidates wanting to apply for these positions may also want to contact the supervisors of the DC5 and DC7 projects respectively: <a href='mailto:marcus.neumann@avmatsim.eu'>Marcus Neumann</a>, <a href='mailto:dahvyd.wing@uni.lu'>Dahvyd Wing</a>",
+            "For DC5 also apply directly to <a href='https://www.avmatsim.eu/recruitment'>AMS on their recruitment page</a>. And for DC7 please also get directly in touch with <a href='mailto:dahvyd.wing@uni.lu'>Dr Dahvyd Wing</a> who will be able to give you further details of the project.",
             "Start date for doctoral candidates: Between 15.03.2023 and 01.09.2024"
         ]
     }
