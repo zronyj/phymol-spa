@@ -11,7 +11,7 @@ import Training from '../components/training.js';
 import Impact from '../components/impact.js';
 import Calendar from '../components/calendar.js';
 
-const { createRouter, createWebHashHistory } = VueRouter;
+const { createRouter, createWebHistory } = VueRouter;
 
 async function getData(url) {
   return new Promise(function (resolve, reject) {
@@ -154,14 +154,16 @@ const routes = [
   { path: '/projects', component: Projects, props: {'package': projs} },
   { path: '/dcs/:dc', component: Candidates, props: {'package': candi} },
   { path: '/recruitment', component: Recruitment, props: {'package': recruits}},
+  { path: '/recruitment.php', redirect: '/recruitment' },
   { path: '/events', component: Events, props: {'package': events}},
   { path: '/training', component: Training },
   { path: '/impact', component: Impact },
-  { path: '/calendar', component: Calendar }
+  { path: '/calendar', component: Calendar },
+  { path: '/:pathMatch(.*)*', redirect: '/'}
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes: routes,
   scrollBehavior(to, from, savedPosition) {
     var offset = document.getElementById("nav").offsetHeight;

@@ -90,12 +90,10 @@
         },
         "contact" : "After filling in the Recruitment form (see 'The application procedure' above), please <b>send your full application or any queries to</b> <a href='mailto:phymol@umk.pl'>phymol@umk.pl</a>. In case of any inquiries about open positions and recruitment, please contact us via this email.",
         "timelines" : [
-            "Accepting pre-applications: immediately.",
-            "Initial application deadline: <b>01.03.2023 (not applicable to DC5)</b>",
-            "<b>We are now recruiting for a new DC5 and DC7. DC5 will be hosted at AMS (Germany) and DC7 at University of Luxenbourg.</b>.",
-            "Candidates wanting to apply for these positions may also want to contact the supervisors of the DC5 and DC7 projects respectively: <a href='mailto:marcus.neumann@avmatsim.eu'>Marcus Neumann</a>, <a href='mailto:dahvyd.wing@uni.lu'>Dahvyd Wing</a>",
-            "For DC5 also apply directly to <a href='https://www.avmatsim.eu/recruitment'>AMS on their recruitment page</a>. And for DC7 please also get directly in touch with <a href='mailto:dahvyd.wing@uni.lu'>Dr Dahvyd Wing</a> who will be able to give you further details of the project.",
-            "Start date for doctoral candidates: Between 15.03.2023 and 01.09.2024"
+            "Accepting applications: immediately.",
+            "<b>We are now recruiting for a new DC5. DC5 will be hosted at AMS (Germany)</b>.",
+            "Candidates wanting to apply for these positions may also want to contact the supervisor <a href='mailto:marcus.neumann@avmatsim.eu'>Marcus Neumann</a></a>",
+            "For DC5 also apply directly to <a href='https://www.avmatsim.eu/recruitment'>AMS on their recruitment page</a>."
         ]
     }
 }

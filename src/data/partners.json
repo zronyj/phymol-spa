@@ -72,6 +72,56 @@
                 },
                 "content": "Kido Dynamics is a company composed by scientists and engineers dedicated to democratize Big Data providing the most advanced solutions for Smart Cities. Kido's team develops their own solutions in Big Data and Machine Learning built on top of the state-of-the-art technologies. Kido's systems are deployed in the cloud, making them globally accessible. With strong background in theoretical physics, the lead scientists in Kido apply their knowledge in computation of quantum systems to solve Big Data problems in the growing complexity of human mobility and Smart Cities. These same techniques can be applied to solve a wide range of problems in computational quantum physics and chemistry.",
                 "keyPar" : ["alberto"]
+            },
+            "ucl" : {
+                "title": "University College London",
+                "img": "./src/img/partners/ucl.png",
+                "website": {
+                    "name": "UCL",
+                    "link": "https://www.ucl.ac.uk/"
+                },
+                "content": "",
+                "keyPar" : []
+            },
+            "uam" : {
+                "title": "Universidad Autónoma de Madrid",
+                "img": "./src/img/partners/uam.png",
+                "website": {
+                    "name": "UAM",
+                    "link": "https://www.uam.es/"
+                },
+                "content": "",
+                "keyPar" : []
+            },
+            "iocb" : {
+                "title": "Institute of Organic Chemistry and Biochemistry of the CAS",
+                "img": "./src/img/partners/iocb.png",
+                "website": {
+                    "name": "IOCB",
+                    "link": "https://www.uochb.cz/en"
+                },
+                "content": "",
+                "keyPar" : []
+            },
+            "cadela" : {
+                "title": "Candela Foundation",
+                "img": "./src/img/partners/candela.png",
+                "website": {
+                    "name": "CF",
+                    "link": "http://www.candela.org.pl/en/education-en/"
+                },
+                "content": "",
+                "keyPar" : []
+            },
+            "qmul":{
+                "title": "Queen Mary University of London",
+                "img": "./src/img/beneficiaries/qmul.png",
+                "website": {
+                    "name": "QMUL",
+                    "link": "https://www.qmul.ac.uk/"
+                },
+                "content": "QMUL is a 'Russell Group' UK HEI conducting the very best research and outstanding teaching and learning. It is ranked 9th in research quality in the 2014 UK Research Excellence Framework (REF) and 5th for research outputs. Annual income is £428m, of which £144m is research income. It is ranked 8th in the UK and 42nd globally based on citation levels. It has 25,000+ students (6,601 postgraduates) and 4,500+ staff over multiple campuses. QMUL has 9 Nobel Prize winners and it was ranked as 22nd of UK HEIs (BEIS, March 2018 with 83 H2020 participations (€35m).",
+                "keyMem" : ["alston", "rachel"]
             }
         }
     }
