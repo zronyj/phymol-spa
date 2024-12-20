@@ -177,6 +177,12 @@
             "profile": "https://soldrevet.com/about/",
             "country": "NO",
             "host": "soldrevet"
+        },
+        "nothing" : {
+            "name": "",
+            "profile": "",
+            "country": "",
+            "host": ""
         }
     }
 }

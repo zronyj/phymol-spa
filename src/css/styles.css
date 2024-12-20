@@ -25,6 +25,31 @@
     display: none;
 }
 
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    box-sizing: content-box;
+}
+
+.fa-lg {
+    font-size: 1.25em;
+    line-height: 0.05em;
+}
+
+.fa-2xl {
+    font-size: 2em;
+    line-height: 0.03125em;
+}
+
+.svg-inline--fa.fa-lg {
+    vertical-align: -0.2em;
+}
+
+.svg-inline--fa.fa-2xl {
+    vertical-align: -0.3125em;
+}
+
 @media only screen and (min-width: 850px) {
     .phymol {
         display: block;

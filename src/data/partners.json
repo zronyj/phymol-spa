@@ -75,13 +75,13 @@
             },
             "ucl" : {
                 "title": "University College London",
-                "img": "./src/img/partners/ucl.png",
+                "img": "./src/img/partners/ucl.jpg",
                 "website": {
                     "name": "UCL",
                     "link": "https://www.ucl.ac.uk/"
                 },
                 "content": "",
-                "keyPar" : []
+                "keyPar" : ["nothing"]
             },
             "uam" : {
                 "title": "Universidad Autónoma de Madrid",
@@ -91,7 +91,7 @@
                     "link": "https://www.uam.es/"
                 },
                 "content": "",
-                "keyPar" : []
+                "keyPar" : ["nothing"]
             },
             "iocb" : {
                 "title": "Institute of Organic Chemistry and Biochemistry of the CAS",
@@ -101,17 +101,17 @@
                     "link": "https://www.uochb.cz/en"
                 },
                 "content": "",
-                "keyPar" : []
+                "keyPar" : ["nothing"]
             },
             "cadela" : {
                 "title": "Candela Foundation",
                 "img": "./src/img/partners/candela.png",
                 "website": {
-                    "name": "CF",
+                    "name": "·cd·",
                     "link": "http://www.candela.org.pl/en/education-en/"
                 },
                 "content": "",
-                "keyPar" : []
+                "keyPar" : ["nothing"]
             },
             "qmul":{
                 "title": "Queen Mary University of London",
@@ -121,7 +121,7 @@
                     "link": "https://www.qmul.ac.uk/"
                 },
                 "content": "QMUL is a 'Russell Group' UK HEI conducting the very best research and outstanding teaching and learning. It is ranked 9th in research quality in the 2014 UK Research Excellence Framework (REF) and 5th for research outputs. Annual income is £428m, of which £144m is research income. It is ranked 8th in the UK and 42nd globally based on citation levels. It has 25,000+ students (6,601 postgraduates) and 4,500+ staff over multiple campuses. QMUL has 9 Nobel Prize winners and it was ranked as 22nd of UK HEIs (BEIS, March 2018 with 83 H2020 participations (€35m).",
-                "keyMem" : ["alston", "rachel"]
+                "keyPar" : ["alston", "rachel"]
             }
         }
     }

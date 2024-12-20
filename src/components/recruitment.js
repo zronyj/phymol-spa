@@ -67,9 +67,9 @@ export default {
             complete += this.buildAccordion(item.pageContent.accordion);
             complete += '<br>\n';
             complete += `<p class="memlinks"><b>Contact:</b> ${item.pageContent.contact}</p>\n`;
-            complete += `<p class="memlinks"><b>Timeline:</b>\n`;
+            complete += `<span class="memlinks"><b>Timeline:</b>\n`;
             complete += this.buildList(item.pageContent.timelines, false);
-            complete += '</p>\n';
+            complete += '</span>\n';
             complete += '</div>\n';
             return complete;
         }
