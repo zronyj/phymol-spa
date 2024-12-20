@@ -74,6 +74,7 @@ var part = {
 for (const [key, value] of Object.entries(prePart.pageContent.data)) {
   var par = [];
   var entry = value;
+  console.log(value.keyPar);
   for (const item of value.keyPar) {
     par.push(people.rawContent[item]);
   }
