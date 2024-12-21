@@ -74,7 +74,6 @@ var part = {
 for (const [key, value] of Object.entries(prePart.pageContent.data)) {
   var par = [];
   var entry = value;
-  console.log(value.keyPar);
   for (const item of value.keyPar) {
     par.push(people.rawContent[item]);
   }
@@ -148,6 +147,8 @@ for (const item of part.pageContent.data) {
 // Setting the routes in place
 const routes = [
   { path: '/', component: Home, props: {'package': home} },
+  { path: '/index.htm', redirect: '/' },
+  { path: '/index.html', redirect: '/' },
   { path: '/project', component: Phymol, props: {'package': prePhy} },
   { path: '/beneficiaries', component: Beneficiaries, props: {'package': bene} },
   { path: '/partners', component: Partners, props: {'package': part} },
