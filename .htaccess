@@ -4,9 +4,9 @@
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /phymol-spa
-  RewriteRule ^phymol-spa/index\.html$ - [L]
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /phymol-spa/index.html [L]
+  RewriteRule . /index.html [L]
 </IfModule>
