@@ -147,8 +147,6 @@ for (const item of part.pageContent.data) {
 // Setting the routes in place
 const routes = [
   { path: '/', component: Home, props: {'package': home} },
-  { path: '/index.htm', redirect: '/' },
-  { path: '/index.html', redirect: '/' },
   { path: '/project', component: Phymol, props: {'package': prePhy} },
   { path: '/beneficiaries', component: Beneficiaries, props: {'package': bene} },
   { path: '/partners', component: Partners, props: {'package': part} },
@@ -160,8 +158,8 @@ const routes = [
   { path: '/events', component: Events, props: {'package': events}},
   { path: '/training', component: Training },
   { path: '/impact', component: Impact },
-  { path: '/calendar', component: Calendar },
-  { path: '/:pathMatch(.*)*', redirect: '/'}
+  { path: '/calendar', component: Calendar }
+  // { path: '/:pathMatch(.*)*', redirect: '/'}
 ]
 
 const router = createRouter({
