@@ -158,12 +158,12 @@ const routes = [
   { path: '/events', component: Events, props: {'package': events}},
   { path: '/training', component: Training },
   { path: '/impact', component: Impact },
-  { path: '/calendar', component: Calendar }
-  // { path: '/:pathMatch(.*)*', redirect: '/'}
+  { path: '/calendar', component: Calendar },
+  { path: '/:pathMatch(.*)*', redirect: '/'}
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/phymol-spa'),
   routes: routes,
   scrollBehavior(to, from, savedPosition) {
     var offset = document.getElementById("nav").offsetHeight;
