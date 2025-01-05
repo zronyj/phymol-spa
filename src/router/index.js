@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import Home from '@/components/Home.vue'
 import Phymol from '@/components/Phymol.vue'
 import Students from '@/components/Students.vue'
@@ -26,8 +26,14 @@ const routes = [
   { path: '/:pathMatch(.*)*', redirect: '/'}
 ]
 
+// 404 GitHub Pages error
+// https://router.vuejs.org/guide/essentials/history-mode.html#Caveat
+// https://v3.router.vuejs.org/guide/essentials/history-mode.html#caveat
+// https://vue-land.github.io/faq/github-pages#vue-router
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  //history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: routes,
   scrollBehavior(to, from, savedPosition) {
     var offset = document.getElementById("nav").offsetHeight;
