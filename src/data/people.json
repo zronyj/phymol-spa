@@ -6,7 +6,7 @@
             "department" : "School of Physical and Chemical Sciences",
             "country" : "UK",
             "host" : "QMUL",
-            "img" : "./src/img/members/alston.jpg"
+            "img" : "./img/members/alston.jpg"
         },
         "rachel" : {
             "name": "Dr. Rachel Crespo-Otero",
@@ -14,7 +14,7 @@
             "department" : "School of Physical and Chemical Sciences",
             "country" : "UK",
             "host" : "QMUL",
-            "img" : "./src/img/members/crespo.jpg"
+            "img" : "./img/members/crespo.jpg"
         },
         "berta" : {
             "name": "Prof. Berta Fernández Rodríguez",
@@ -22,7 +22,7 @@
             "department" : "Department of Physical Chemistry",
             "country" : "ES",
             "host" : "USC",
-            "img" : "./src/img/members/berta.jpg"
+            "img" : "./img/members/berta.jpg"
         },
         "saulo" : {
             "name": "Prof. Saulo A. Vázquez Rodríguez",
@@ -30,7 +30,7 @@
             "department" : "Department of Physical Chemistry",
             "country" : "ES",
             "host" : "USC",
-            "img" : "./src/img/members/saulo.jpg"
+            "img" : "./img/members/saulo.jpg"
         },
         "alex" : {
             "name": "Prof. Alexandre Tkatchenko",
@@ -38,7 +38,7 @@
             "department" : "Physics and Materials Science",
             "country" : "LU",
             "host" : "UL",
-            "img" : "./src/img/members/alex.webp"
+            "img" : "./img/members/alex.webp"
         },
         "dahvyd" : {
             "name": "Dr. Dahvyd Wing",
@@ -46,7 +46,7 @@
             "department" : "Physics and Materials Science",
             "country" : "LU",
             "host" : "UL",
-            "img" : "./src/img/members/dahvyd.jpg"
+            "img" : "./img/members/dahvyd.jpg"
         },
         "tijs" : {
             "name": "Dr. Tijs Karma",
@@ -54,7 +54,7 @@
             "department" : "Theoretical Chemistry",
             "country" : "NL",
             "host": "RUN",
-            "img" : "./src/img/members/tijs.jpg"
+            "img" : "./img/members/tijs.jpg"
         },
         "gerrit" : {
             "name": "Prof. Gerrit C. Groenenboom",
@@ -62,7 +62,7 @@
             "department" : "Theoretical Chemistry",
             "country" : "NL",
             "host": "RUN",
-            "img" : "./src/img/members/gerrit.jpg"
+            "img" : "./img/members/gerrit.jpg"
         },
         "ad" : {
             "name": "Prof. Ad van der Avoird",
@@ -70,7 +70,7 @@
             "department" : "Theoretical Chemistry",
             "country" : "NL",
             "host": "RUN",
-            "img" : "./src/img/members/ad.jpg"
+            "img" : "./img/members/ad.jpg"
         },
         "piotr" : {
             "name": "Dr. Piotr Zuchowski",
@@ -78,7 +78,7 @@
             "department" : "Faculty of Physics",
             "country" : "PL",
             "host": "UMK",
-            "img" : "./src/img/members/piotr.jpg"
+            "img" : "./img/members/piotr.jpg"
         },
         "anna" : {
             "name": "Dr. hab. Anna Kaczmarek-Kędziera",
@@ -86,7 +86,7 @@
             "department" : "Faculty of Chemistry NCU",
             "country" : "PL",
             "host": "UMK",
-            "img" : "./src/img/members/anna.png"
+            "img" : "./img/members/anna.png"
         },
         "pilar" : {
             "name": "Dr. M. Pilar de Lara-Castells",
@@ -94,7 +94,7 @@
             "department" : "Research",
             "country" : "ES",
             "host": "CSIC",
-            "img" : "./src/img/members/MPilar.jpg"
+            "img" : "./img/members/MPilar.jpg"
         },
         "jean" : {
             "name": "Prof. Jean-P. Piquemal",
@@ -102,7 +102,7 @@
             "department" : "Laboratoire de Chimie Théorique",
             "country" : "FR",
             "host" : "SU",
-            "img" : "./src/img/members/jeanPhilip.jpg"
+            "img" : "./img/members/jeanPhilip.jpg"
         },
         "louis" : {
             "name": "Dr. Louis Lagardere",
@@ -110,7 +110,7 @@
             "department" : "Laboratoire de Chimie Théorique",
             "country" : "FR",
             "host" : "SU",
-            "img" : "./src/img/members/louis.jpg"
+            "img" : "./img/members/louis.jpg"
         },
         "attila" : {
             "name": "Prof. Attila G. Császár",
@@ -118,7 +118,7 @@
             "department" : "Institute of Chemistry",
             "country" : "HU",
             "host" : "ELTE",
-            "img" : "./src/img/members/attila.jpg"
+            "img" : "./img/members/attila.jpg"
         },
         "marcus" : {
             "name": "Dr. Marcus Neumann",
@@ -126,7 +126,7 @@
             "department" : "-",
             "country" : "DE",
             "host" : "AMS",
-            "img" : "./src/img/members/marcus.jpg"
+            "img" : "./img/members/marcus.jpg"
         },
         "alberto" : {
             "name": "Dr. Alberto Hernando",
@@ -134,7 +134,7 @@
             "department" : "Research",
             "country" : "ES",
             "host" : "KIDO",
-            "img" : "./src/img/members/alberto.webp"
+            "img" : "./img/members/alberto.webp"
         },
         "teresa" : {
             "name": "Prof. Teresa Head-Gordon",

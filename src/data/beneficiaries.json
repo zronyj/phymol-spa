@@ -6,7 +6,7 @@
             "QMUL":{
                 "title": "UK funded beneficiary",
                 "short": "Queen Mary University of London",
-                "img": "./src/img/beneficiaries/qmul.png",
+                "img": "./img/beneficiaries/qmul.png",
                 "website": {
                     "name": "QMUL",
                     "link": "https://www.qmul.ac.uk/"
@@ -17,7 +17,7 @@
             "USC":{
                 "title": "University of Santiago de Compostela: Department of Physical Chemistry. Spain (USC)",
                 "short": "Universidad de Santiago de Compostela",
-                "img": "./src/img/beneficiaries/usc.png",
+                "img": "./img/beneficiaries/usc.png",
                 "website": {
                     "name": "USC",
                     "link": "https://www.usc.gal/"
@@ -28,7 +28,7 @@
             "UL":{
                 "title": "University of Luxembourg (UL): Theoretical Chemical Physics group",
                 "short": "University of Luxembourg",
-                "img": "./src/img/beneficiaries/ul.png",
+                "img": "./img/beneficiaries/ul.png",
                 "website": {
                     "name": "UL",
                     "link": "https://www.uni.lu/"
@@ -39,7 +39,7 @@
             "RUN":{
                 "title": "Radboud University Nijmegen (RUN): Theoretical Chemistry Group",
                 "short": "Radboud Universiteit",
-                "img": "./src/img/beneficiaries/run.png",
+                "img": "./img/beneficiaries/run.png",
                 "website": {
                     "name": "RUN",
                     "link": "https://www.ru.nl/"
@@ -50,7 +50,7 @@
             "UMK":{
                 "title": "Nicolaus Copernicus University in Torun (UMK)",
                 "short": "Uniwersytet Mikołaja Kopernika w Toruniu",
-                "img": "./src/img/beneficiaries/umk.png",
+                "img": "./img/beneficiaries/umk.png",
                 "website": {
                     "name": "UMK",
                     "link": "https://www.umk.pl/"
@@ -61,7 +61,7 @@
             "CSIC":{
                 "title": "CSIC: Agencia Estatal Consejo Superior de Investigaciones Científicas. Institute of Fundamental Physics",
                 "short": "Consejo Superior de Investigaciones Científicas",
-                "img": "./src/img/beneficiaries/csic.png",
+                "img": "./img/beneficiaries/csic.png",
                 "website": {
                     "name": "CSIC",
                     "link": "https://www.csic.es/"
@@ -72,7 +72,7 @@
             "SU":{
                 "title": "Sorbonne Université (SU)",
                 "short": "Sorbonne Université",
-                "img": "./src/img/beneficiaries/su.png",
+                "img": "./img/beneficiaries/su.png",
                 "website": {
                     "name": "SU",
                     "link": "https://www.sorbonne-universite.fr/"
@@ -83,7 +83,7 @@
             "ELTE":{
                 "title": "ELTE: Eötvös Lorand University, Complex Chemical Systems Research Group",
                 "short": "Eötvös Loránd Tudományegyetem",
-                "img": "./src/img/beneficiaries/elte.png",
+                "img": "./img/beneficiaries/elte.png",
                 "website": {
                     "name": "ELTE",
                     "link": "https://www.elte.hu/"
@@ -94,7 +94,7 @@
             "AMS":{
                 "title": "AMS : Avantgarde Materials Simulations",
                 "short": "Avant-garde Materials Simulation",
-                "img": "./src/img/beneficiaries/ams.png",
+                "img": "./img/beneficiaries/ams.png",
                 "website": {
                     "name": "AMS",
                     "link": "https://www.avmatsim.eu/"

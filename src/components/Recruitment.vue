@@ -23,13 +23,13 @@ function checkContent(content) {
             result += `<p>${value2}</p>\n`;
         } else {
             if (key2 === "data") {
-                result += this.buildList(value2, false);
+                result += buildList(value2, false);
             } else if (key2 === "odata") {
-                result += this.buildList(value2, true);
+                result += buildList(value2, true);
             } else {
                 var jump = ((value2.description.length != 0) ? '<br>' : '');
                 result += `<p><b>${key2}:</b><br>${value2.description}${jump}</p>\n`;
-                result += this.buildList(value2.data, false);
+                result += buildList(value2.data, false);
             }
         }
     }

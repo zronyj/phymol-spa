@@ -6,7 +6,7 @@
             "country" : "India",
             "host" : "UMK",
             "hostCountry" : "Poland",
-            "img" : "./src/img/students/humahuti.jpg",
+            "img" : "./img/students/humahuti.jpg",
             "description" : "We focus on advancing the theory of intermolecular interactions, with an emphasis on accurately and consistently incorporating induction energy. This project investigates intermolecular interactions through a non-perturbative approach and integrates computationally efficient methods with the open-source quantum chemistry software Psi4. This theoretical approach aims to deepen our understanding of these interactions, overcome limitations of Symmetry Adapted Perturbation Theory (SAPT), and extend the applicability of such techniques to a broader range of molecular systems.",
             "socialMedia" : {
                 "orcid" : "https://orcid.org/0009-0004-2431-3391",
@@ -23,7 +23,7 @@
             "country" : "Mexico",
             "host" : "ELTE",
             "hostCountry" : "Hungary",
-            "img" : "./src/img/students/marlene.jpg",
+            "img" : "./img/students/marlene.jpg",
             "description" : "We want to understand the intermolecular interactions in dimers. For that purpose, we (1)calculate the diabatic interaction potentials for ground and excited states, using SAPT and SAPT(DFT). (2) benchmark the electronic structure methods on complexes in electronically excited states. (3) use Scattering Theory to predict the Integral and Differential Cross Sections, and compare them with experimental results.",
             "socialMedia" : {
                 "orcid" : "https://orcid.org/0009-0008-1268-1153",
@@ -40,7 +40,7 @@
             "country" : "India",
             "host" : "RUN",
             "hostCountry" : "Netherlands",
-            "img" : "./src/img/students/nikhila.jpg",
+            "img" : "./img/students/nikhila.jpg",
             "description" : "My research focuses on the calculation of Collision Induced Absorption from ab initio potentials: When gas molecules interact through the Van der Waals force, minute rearrangements of their normal charge distribution occur, resulting in interaction-induced dipole moment. This dipole moment allows the complex to absorb electromagnetic radiation, particularly in the microwave and infrared frequencies, producing Collision Induced Absorption (CIA) spectra. I will be calculating the CIA spectra relevant for the HITRAN database using ab initio potential and dipole surfaces.",
             "socialMedia" : {
                 "orcid" : "https://orcid.org/0009-0004-1991-3261",
@@ -57,7 +57,7 @@
             "country" : "Cuba",
             "host" : "USC",
             "hostCountry" : "Spain",
-            "img" : "./src/img/students/omar.jpg",
+            "img" : "./img/students/omar.jpg",
             "description" : "My research comprises the reparametrisation of semiempirical models: The aim of the Project is to iteratively improve semiempirical Hamiltonians. This will be done using databases of reference intermolecular interaction energies for a set of specially chosen small molecules representing important functional groups. Corrections will be evaluated from this data, and analytical correction functions will be obtained through fittings. Subsequent data sets containing larger molecules, with more complex functional units, will be added and the corresponding fits will be carried out.",
             "socialMedia" : {
                 "orcid" : "https://orcid.org/0000-0001-7440-855X",
@@ -74,7 +74,7 @@
             "country" : "Italy",
             "host" : "SU",
             "hostCountry" : "France",
-            "img" : "./src/img/students/edoardo.jpg",
+            "img" : "./img/students/edoardo.jpg",
             "description" : "",
             "socialMedia" : {
                 "orcid" : "",
@@ -91,7 +91,7 @@
             "country" : "Poland",
             "host" : "CSIC",
             "hostCountry" : "Spain",
-            "img" : "./src/img/students/kasia.jpg",
+            "img" : "./img/students/kasia.jpg",
             "description" : "My research within the DC8 project involves state-of-the-art modeling of quantum materials, utilizing high-level ab initio methods and method development for metal atomic quantum clusters. Under the mentorship and supervision of Professor María Pilar de Lara-Castells, she explores and characterizes unsupported and surface-supported subnanometric metal clusters and their intermolecular interactions.",
             "socialMedia" : {
                 "orcid" : "https://orcid.org/0000-0001-6248-6710",
@@ -108,7 +108,7 @@
             "country" : "Guatemala",
             "host" : "AMS",
             "hostCountry" : "Germany",
-            "img" : "./src/img/students/rony.jpg",
+            "img" : "./img/students/rony.jpg",
             "description" : "My research involves finding new ways to model solvents inside molecular crystals, by considering the thermodynamics of the crystal (using quasi-harmonic approximations), and by explicitly modeling the disorder within the crystal. Additionally, the use of tailor-made force fields has accelerated the process of crystal structure prediction, but this study will also look to find alternatives based on traditional machine learning methods.",
             "socialMedia" : {
                 "orcid" : "https://orcid.org/0000-0001-7440-855X",
@@ -125,7 +125,7 @@
             "country" : "Colombia",
             "host" : "UMK",
             "hostCountry" : "Poland",
-            "img" : "./src/img/students/exlonk.jpg",
+            "img" : "./img/students/exlonk.jpg",
             "description" : "This project explores the integration of quantum mechanics and machine learning to predict fluorescence quantum yield in organic molecules. By leveraging quantum mechanical calculations and advanced machine learning algorithms, the study aims to enhance the accuracy of predictions related to photophysical properties. This approach could streamline the design of new fluorescent materials by providing rapid and reliable predictions",
             "socialMedia" : {
                 "orcid" : "",
@@ -142,7 +142,7 @@
             "country" : "Germany",
             "host" : "QMUL",
             "hostCountry" : "United Kingdom",
-            "img" : "./src/img/students/bruno.jpg",
+            "img" : "./img/students/bruno.jpg",
             "description" : "My research focuses on the conventional intermolecular potentials are calibrated empirically which restricts their transferability and accuracy. We anticipate a more powerful framework in the composition of physically derived functional forms for each interaction class. The functional parameters are obtained by discretizing the quantum chemical molecular electron density into atomic multipolar moments. We develop and explore density partitioning techniques to establish high-accuracy multipole moments and train models predicting the change with molecular flexibility.",
             "socialMedia" : {
                 "orcid" : "",

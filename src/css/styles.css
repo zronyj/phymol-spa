@@ -61,7 +61,7 @@
     }
     .phymol-title {
         flex-grow: 1;
-        background: linear-gradient(rgba(42,17,182,.4), rgba(42,17,182,.4)), url("../../src/img/titlebg2.png");
+        background: linear-gradient(rgba(42,17,182,.4), rgba(42,17,182,.4)), url("../img/titlebg2.png");
         background-size: 602px 328px;
         background-repeat: repeat;
         display: inline-block;

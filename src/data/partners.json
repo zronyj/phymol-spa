@@ -5,7 +5,7 @@
         "data": {
             "molssi" : {
                 "title": "MolSSI : The Molecular Sciences Software Institute",
-                "img": "./src/img/partners/molssi.png",
+                "img": "./img/partners/molssi.png",
                 "website": {
                     "name": "MolSSI",
                     "link": "https://molssi.org/"
@@ -15,7 +15,7 @@
             },
             "auburn" : {
                 "title": "Auburn University",
-                "img": "./src/img/partners/auburn.png",
+                "img": "./img/partners/auburn.png",
                 "website": {
                     "name": "Auburn University",
                     "link": "https://www.auburn.edu/"
@@ -25,7 +25,7 @@
             },
             "hitran" : {
                 "title": "HITRAN: high-resolution transmission molecular absorption database",
-                "img": "./src/img/partners/hitran.png",
+                "img": "./img/partners/hitran.png",
                 "website": {
                     "name": "HITRAN",
                     "link": "https://www.hitran.org/"
@@ -35,7 +35,7 @@
             },
             "nanogap" : {
                 "title": "NANOGAP",
-                "img": "./src/img/partners/nanogap.png",
+                "img": "./img/partners/nanogap.png",
                 "website": {
                     "name": "NANOGAP",
                     "link": "https://nanogap.es/"
@@ -45,7 +45,7 @@
             },
             "cesga" : {
                 "title": "Supercomputing Center of Galicia (CESGA)",
-                "img": "./src/img/partners/cesga.png",
+                "img": "./img/partners/cesga.png",
                 "website": {
                     "name": "CESGA",
                     "link": "https://www.cesga.es/en/home-2/"
@@ -55,7 +55,7 @@
             },
             "soldrevet" : {
                 "title": "Soldrevet Chemistry by Thomas Preston",
-                "img": "./src/img/partners/soldrevet.png",
+                "img": "./img/partners/soldrevet.png",
                 "website": {
                     "name": "Soldrevet",
                     "link": "https://soldrevet.com/"
@@ -65,7 +65,7 @@
             },
             "kido" : {
                 "title": "KIDO DYNAMICS SA",
-                "img": "./src/img/partners/kido.png",
+                "img": "./img/partners/kido.png",
                 "website": {
                     "name": "KIDO",
                     "link": "https://www.kidodynamics.com/"
@@ -75,7 +75,7 @@
             },
             "ucl" : {
                 "title": "University College London",
-                "img": "./src/img/partners/ucl.jpg",
+                "img": "./img/partners/ucl.jpg",
                 "website": {
                     "name": "UCL",
                     "link": "https://www.ucl.ac.uk/"
@@ -85,7 +85,7 @@
             },
             "uam" : {
                 "title": "Universidad Autónoma de Madrid",
-                "img": "./src/img/partners/uam.png",
+                "img": "./img/partners/uam.png",
                 "website": {
                     "name": "UAM",
                     "link": "https://www.uam.es/"
@@ -95,7 +95,7 @@
             },
             "iocb" : {
                 "title": "Institute of Organic Chemistry and Biochemistry of the CAS",
-                "img": "./src/img/partners/iocb.png",
+                "img": "./img/partners/iocb.png",
                 "website": {
                     "name": "IOCB",
                     "link": "https://www.uochb.cz/en"
@@ -105,7 +105,7 @@
             },
             "cadela" : {
                 "title": "Candela Foundation",
-                "img": "./src/img/partners/candela.png",
+                "img": "./img/partners/candela.png",
                 "website": {
                     "name": "·cd·",
                     "link": "http://www.candela.org.pl/en/education-en/"
@@ -115,7 +115,7 @@
             },
             "qmul":{
                 "title": "Queen Mary University of London",
-                "img": "./src/img/beneficiaries/qmul.png",
+                "img": "./img/beneficiaries/qmul.png",
                 "website": {
                     "name": "QMUL",
                     "link": "https://www.qmul.ac.uk/"

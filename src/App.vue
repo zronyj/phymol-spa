@@ -2,11 +2,21 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
+<script>
+export default {
+    data() {
+        return {
+            publicPath: '.'
+        }
+    }
+}
+</script>
+
 <template>
     <header>
         <div class="container-fluid start">
             <div class="phymol">
-                <img class="phymol-logo" src="@/img/logo.png" alt="PHYMOL">
+                <img class="phymol-logo" :src="publicPath + '/img/mini.png'" alt="PHYMOL">
             </div>
             <div class="phymol-title">
                 <div class="valignment">
@@ -25,7 +35,7 @@ import { RouterLink, RouterView } from 'vue-router'
                 <ul class="navbar-nav nav-pretty">
                     <li>
                         <a class="navbar-brand nav-align-style router-link" href="#">
-                            <img class="mini-logo" src="@/img/mini.png" alt="">
+                            <img class="mini-logo" :src="publicPath + '/img/mini.png'" alt="">
                             <router-link to="/" class="router-link"><b>PHYMOL</b></router-link>
                         </a>
                     </li>
