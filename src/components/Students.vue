@@ -1,4 +1,5 @@
 <script setup>
+import { toRaw } from 'vue';
 import preBene from '../data/beneficiaries.json'
 import preProjs from '../data/projects.json'
 import people from '../data/people.json'
@@ -33,8 +34,12 @@ export default {
         }
     },
     methods: {
-        setSelected(key) {
+        setSelected(key, candidate) {
             this.selected = key;
+            this.$nextTick(() => {
+                var focusElement = document.getElementById(candidate);
+                focusElement.scrollIntoView({behavior: 'smooth', block: "center"});
+            });
         }
     }
 }
@@ -44,24 +49,24 @@ export default {
     <div>
         <h2>OUR DOCTORAL CANDIDATES</h2>
         <div class="row">
-            <p v-for="(entry, key) in students" class="studentSelect col-xl-2 col-md-3 col-sm-4 col-xs-6 col-6 px-2 py-1">
+            <div v-for="(entry, key) in students" class="studentSelect col-xl-2 col-md-3 col-sm-4 col-xs-6 col-6 px-2 py-1">
                 <span>{{ entry.name }}</span>
-                <a :href="'/students#' + entry.candidate" v-on:click="setSelected(key)">
+                <div v-on:click="setSelected(key, entry.candidate)">
                     <img :title="entry.name" :src="entry.img" :alt="entry.name">
-                </a>
-            </p>
+                </div>
+            </div>
         </div>
         <br>
         <br>
         <div v-for="(entry, key) in students">
-            <div v-if="key === selected" class="card" :id="entry.candidate">
+            <div v-if="key === selected" class="card">
                 <div class="row">
                     <div class="col-md-3 imgcard">
                         <img class="studentImg" :title="entry.name" :src="entry.img" :alt="entry.name">
                     </div>
                     <div class="col-md-9">
                         <div class="card-header">
-                            <h5>{{ entry.name }}</h5>
+                            <h5 :id="entry.candidate">{{ entry.name }}</h5>
                         </div>
     
                         <div class="card-body">

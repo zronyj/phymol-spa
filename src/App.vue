@@ -8,6 +8,15 @@ export default {
         return {
             publicPath: '.'
         }
+    },
+    watch: {
+        $route(to, from) {
+            const hamburger = document.getElementById("navbarNav");
+            if (hamburger.classList.contains("show")) {
+                const smashBurger = document.querySelector('.navbar-toggler');
+                smashBurger.click();
+            }
+        }
     }
 }
 </script>
@@ -16,7 +25,7 @@ export default {
     <header>
         <div class="container-fluid start">
             <div class="phymol">
-                <img class="phymol-logo" :src="publicPath + '/img/mini.png'" alt="PHYMOL">
+                <img class="phymol-logo" :src="publicPath + '/img/logo.png'" alt="PHYMOL">
             </div>
             <div class="phymol-title">
                 <div class="valignment">

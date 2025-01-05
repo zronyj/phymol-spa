@@ -190,7 +190,7 @@ h2, h3 {
     color: rgba(0, 0, 0, 0.0);
 }
 
-.studentSelect a {
+.studentSelect div {
     position: relative;
     display: inline-block;
 }
@@ -214,6 +214,7 @@ h2, h3 {
 .studentSelect:hover {
     color: rgba(0, 0, 0, 1.0);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .studentSelect:hover img {
