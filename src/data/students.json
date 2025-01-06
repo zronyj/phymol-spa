@@ -75,11 +75,11 @@
             "host" : "SU",
             "hostCountry" : "France",
             "img" : "./img/students/edoardo.jpg",
-            "description" : "",
+            "description" : "My research focuses on developing a new ab initio, first quantization-based, variational and self-consistent method to calculate interaction energies. This method incorporates regularization techniques to separate polarization from charge delocalization effects, providing a consistent, reliable, and reproducible framework for modeling these phenomena in molecular systems. The goal is to enhance our understanding and prediction of molecular behavior in various contexts.",
             "socialMedia" : {
                 "orcid" : "",
-                "linkedin" : "",
-                "twitter" : ""
+                "linkedin" : "https://www.linkedin.com/in/edoardo-vanich-21a8802b2/",
+                "twitter" : "https://x.com/VanEdoPhyChem"
             },
             "versionControl" : {
                 "github" : ""
